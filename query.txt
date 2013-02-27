@@ -1,0 +1,18 @@
+delete from AppNotifier
+delete from AppUser
+delete from AppProduct
+delete from AppConfiguration
+
+update Appconfigrefrence set AppConfigStatus='A'
+where CreatedDT <'2012-06-15 14:56:16.057'
+
+select * from Templates
+
+
+sp_helptext IsAppCreationAllowed*
+
+select * from AppNotifier 
+exec IsAppCreationAllowed 'AC006NK6TG6F725BB1RW'
+
+
+select * from CUSTOMER
