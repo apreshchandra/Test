@@ -1,0 +1,126 @@
+﻿
+html, body, div, h1, h2, h3, h4, h5, h6, p, form
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body
+{
+    font-family:Microsoft YaHei;
+    font-size: 12px;
+}
+
+*
+{
+    outline: none;
+}
+
+.masterHead
+{
+    background-image: url(../images/master_bg.png);
+    background-position: top;
+}
+.masterbody
+{
+    background-image: url(../images/master_bg.png);
+    background-position: top;
+    height: 800px;
+}
+.clr
+{
+    clear: both;
+}
+
+.masterwrapper
+{
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 10px;
+}
+
+
+#masterbanner
+{
+    background-image: url(../images/master_banner.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.sonetlogo
+{
+    float: left;
+    width: 300px;
+}
+
+.topright
+{
+    float: right;
+    width: 400px;
+    position: relative;
+    top: 37px;
+}
+
+.toplink
+{
+    background-image: url('../images/button.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    height: 27px;
+    line-height: 27px;
+    width: 102px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.toplink:hover
+{
+    background-image: url('../images/button_hover.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    height: 27px;
+    line-height: 27px;
+    width: 102px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.copy
+{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+}
+.netserv
+{
+    margin: 0 auto;
+    float: left;
+    width: 1000px;
+    text-align: left;
+    padding-top: 5px;
+}
+.FAQHeader
+{
+    font-family: CenturyGothicRegular, "Century Gothic" ,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}

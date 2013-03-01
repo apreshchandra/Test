@@ -1,0 +1,304 @@
+﻿/*html
+{
+    background: #fff;
+    font-family: arial;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body
+{
+    background: url(../Images/Main_body_BG.png) repeat-x;
+    font-size: .80em;
+    font-family: "CenturyGothicRegular" , "Century Gothic" , Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+    height: 800px;
+}*/
+
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 262px;
+}
+#bar
+{
+    background: url(/img/bar.png) repeat-x;
+    height: 35px;
+    padding: 15px 0;
+    width: 100%;
+}
+#container
+{
+    margin: 0 auto;
+    width: 960px;
+}
+#loginContainer
+{
+    float: right;
+    font-size: 12px;
+    position: relative;
+}
+
+
+#signup
+{
+    cursor: pointer;
+    display: inline-block; /*float: right;*/
+    moz-border-radius: 3px;
+    position: relative;
+    z-index: 0;
+    background-color: #7ab1ff;
+    border-radius: 9px;
+    color: White;
+    vertical-align: middle;
+    margin: 0px;
+    width: 80px;
+    height: 25px;
+    padding-bottom: 5px;
+    line-height: 13px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #000;
+    background-image: url('../images/button_top_bg.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+#logout
+{
+    cursor: pointer;
+    display: inline-block; /*float: right;*/
+    moz-border-radius: 3px;
+    position: relative;
+    z-index: 0;
+    background-color: #7ab1ff;
+    border-radius: 9px;
+    color: White;
+    vertical-align: middle;
+    margin: 0px;
+    width: 80px;
+    height: 25px;
+    padding-bottom: 5px;
+    line-height: 13px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #000;
+    background-image: url('../images/button_top_bg.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+#signup:hover
+{
+    /*background: url(/img/buttonbgHover.png) repeat-x;*/
+    color: #ffffff;
+    background-image: url('../images/button_tophover.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline: none;
+}
+#signup span
+{
+    /*background: url(/img/loginArrow.png) no-repeat 53px 7px;*/ /*color: #445058;*/
+    display: block; /*font-size: 14px;*/
+    font-weight: bold;
+    padding: 4px;
+    font-size: 14px;
+}
+#logout:hover
+{
+    /*background: url(/img/buttonbgHover.png) repeat-x;*/
+    color: #ffffff;
+    background-image: url('../images/button_tophover.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline: none;
+}
+#logout span
+{
+    /*background: url(/img/loginArrow.png) no-repeat 53px 7px;*/ /*color: #445058;*/
+    display: block; /*font-size: 14px;*/
+    font-weight: bold;
+    padding: 4px;
+    font-size: 14px;
+}
+#loginBox
+{
+    display: block;
+    left: 116px;
+    position: absolute;
+    right: 0;
+    top: -49px;
+    z-index: 29;
+}
+#loginButton.active
+{
+    border-radius: 3px 3px 0 0;
+}
+#loginButton.active span
+{
+    background-position: 53px -76px;
+}
+#loginButton.active em
+{
+    background: #d2e0ea;
+    bottom: -1px;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+}
+#loginForm
+{
+    background: none repeat scroll 0 0 #ECECEC;
+    border: 2px solid #8F1315;
+    border-radius: 3px 0 3px 3px;
+    color: #8F1315;
+    margin-left: 875px;
+    margin-top: 133px;
+    padding: 6px;
+    width: 248px;
+    font-family:"Lucida Grande","Lucida Sans Unicode","Helvetica","Arial,Verdana","sans-serif"; 
+}
+#loginForm fieldset
+{
+    border: 0;
+    display: block;
+    margin: 0 0 12px 0;
+    padding: 0;
+}
+fieldset#signup
+{
+    background: #fff;
+    border-radius: 3px;
+    margin: 0;
+    moz-border-radius: 3px;
+    padding: 10px 13px;
+}
+#loginForm #checkbox
+{
+    border: 0;
+    float: left;
+    margin: 1px 9px 0 0;
+    margin: 0px 9px 0 0;
+    padding: 0;
+    width: auto;
+}
+#body label
+{
+    color: #3a454d;
+    display: block;
+    float: left;
+    margin: 9px 0 0 0;
+}
+#loginForm #body fieldset label
+{
+    display: block;
+    float: none;
+    margin: 0 0 6px 0;
+}
+
+#loginForm label
+{
+    display: block;
+    padding-top: 15px;
+    text-indent: -7px;
+}
+
+
+#loginForm input
+{
+    /*border: 1px solid #899caa;     border-radius: 3px;     box-shadow: inset 0px 1px 3px #bbb;     color: #3a454d;     font-size: 12px;     font-weight: bold;     moz-border-radius: 3px;     moz-box-shadow: inset 0px 1px 3px #bbb;     padding: 8px 8px;     webkit-box-shadow: inset 0px 1px 3px #bbb;     width: 227px; /*margin-left: 35px;*/ /*padding-right: 8px;     padding-bottom: 8px;     padding-left: 8px;     padding-top:6px;*/
+}
+#loginForm #login
+{
+    /* background-color: #ECECEC;     border: 2px solid #f7c357;     box-shadow: none;     color: #000000;     cursor: pointer;     float: left;     margin: 0 12px 0 0;     moz-box-shadow: none;     padding: 7px 10px 8px 10px;     padding: 7px 2px 8px 2px;     text-shadow: 0px -1px #278db8;     webkit-box-shadow: none;     width: auto;*/
+    border-radius: 3px; /*background-image: url('../Images/yellow_button.png');     background-color: transparent;     background-repeat: no-repeat;     border: none;     color: #000000;     cursor: pointer;     vertical-align: middle;     margin: 0px;     height: 28px;     line-height: 28px;     width: 83px;     display: block;     text-align: center;     text-decoration: none;     font-size: 12px;     font-weight: bold;*/
+}
+#loginForm span
+{
+    display: block;
+    padding: 7px 0 4px 4px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+#loginForm span a
+{
+    color: #8f1315;
+    font-size: 12px;
+    text-shadow: 1px 1px #D7D7D7;
+}
+input:focus
+{
+    outline: none;
+}
+#lblemail #lblpwd
+{
+    text-align: left;
+}
+#tblLogin
+{
+    text-align: center;
+}
+.close
+{
+    /*background-image: url("../Images/close_login.png"); /*closebutton*/ /*cursor: pointer;     height: 36px;     position: absolute;     right: 100px;     top: 131px;     width: 36px;*/
+    background-image: url("../Images/FW_cancel.png");
+    background-repeat: no-repeat;
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 95px;
+}
+.toplink
+{
+    background-image: url('../Images/FW_submit.png');
+    background-repeat: no-repeat;
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 95px;
+}
+.backtocampaign
+{
+    background-image: url('../images/create_campaigns.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    height: 28px;
+    line-height: 28px;
+    width: 162px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="DigiMa.MasterPage" CodeBehind="MasterPage.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Web Hut</title>
+    <link href="Styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/menu_style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .link
+        {
+            font-family: Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+            color: #0060A6;
+            text-decoration: none;
+            font-size: 13px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background:url('Images/body_bg.jpg');background-color:#fff; background-repeat:repeat-x; background-position:top;">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="leftdivinsidePages">
+        <div class="logo">
+            <img src="Images/logo_SNR.png" id="logoImg"/></div>
+        <div class="menusubinsidepages">
+            <div>
+                <div id="ddtopmenubar" class="mattblackmenu">
+                    <ul>
+                        <li><a href="Home.aspx" class="select">Home</a></li>
+                        <li><a href="About.aspx">About us</a></li>
+                        <li><a href="ProductSuite.aspx" rel="ddsubmenu5">Product Suite</a></li>
+                        <li><a href="Contact.aspx" rel="ddsubmenu8">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="float:left;margin-left:90px;">
+        <table align="center" width="950" style="margin-left:100px; width:950px;background-color:#fff; ">
+        
+            <tr>
+                <td style="height: 300px; vertical-align: top">
+                    <asp:ContentPlaceHolder ID="body" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+            </tr>
+        </table>
+
+        </div>
+        <div id="divLockAddDiv" style="position: absolute; background: SlateGray; filter: alpha(opacity=0);
+            z-index: 155; display: none; border-style: solid; border-width: 1px; border-color: #507AAA;
+            top: 67px; left: 18px; right: 0px; bottom: 0px; width: 100%; height: 800px;">
+            &nbsp;
+        </div>
+    </form>
+</body>
+</html>

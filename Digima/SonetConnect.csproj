@@ -1,0 +1,1205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39898732-9326-4F59-B341-204C2E1ECE2A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DigiMa</RootNamespace>
+    <AssemblyName>DigiMa</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DesktopBuildPackageLocation>C:\Users\apresh.chandra\Desktop\DigiMa.zip</DesktopBuildPackageLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\SonetConnectAnalytics\MSChartsPractise\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook, Version=5.0.3.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Web, Version=5.0.3.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Facebook.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Client, Version=2.1.0.0, Culture=neutral, PublicKeyToken=04a59ca9b0273830, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Google.GData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Extensions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=0b4c5df2ebf20876, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Google.GData.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.YouTube, Version=2.1.0.0, Culture=neutral, PublicKeyToken=af04a32718ae8833, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Google.GData.YouTube.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.0.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\jayesh.agwan\Desktop\Bkp_Sep12\DigiMa\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DataVisualization.Design" />
+    <Reference Include="System.Web.DynamicData.Design" />
+    <Reference Include="System.Web.Entity.Design" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Twitterizer2">
+      <HintPath>C:\Users\jayesh.agwan\Desktop\Bkp_Sep12\DigiMa\bin\Twitterizer2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Analytics\Aoresh.aspx" />
+    <Content Include="Analytics\DateWiseDrillDown.aspx" />
+    <Content Include="Analytics\FromLacationgenderDrillDown.aspx" />
+    <Content Include="Analytics\FromLacationgenderDrillDown2.aspx" />
+    <Content Include="Analytics\FromLocationgenderDrillDown1.aspx" />
+    <Content Include="Analytics\GenderWiseDrillDown.aspx" />
+    <Content Include="Analytics\LevelsDrillDown.aspx" />
+    <Content Include="Analytics\LocationWiseDrillDown.aspx" />
+    <Content Include="Analytics\LocationWiseDrillDown1.aspx" />
+    <Content Include="Analytics\LocationWiseDrillDown2.aspx" />
+    <Content Include="Analytics\SonetReachAnalyticsMain.aspx" />
+    <Content Include="AppBuilder.aspx" />
+    <Content Include="App_Data\RadCaptcha\0.wav" />
+    <Content Include="App_Data\RadCaptcha\1.wav" />
+    <Content Include="App_Data\RadCaptcha\2.wav" />
+    <Content Include="App_Data\RadCaptcha\3.wav" />
+    <Content Include="App_Data\RadCaptcha\4.wav" />
+    <Content Include="App_Data\RadCaptcha\5.wav" />
+    <Content Include="App_Data\RadCaptcha\6.wav" />
+    <Content Include="App_Data\RadCaptcha\7.wav" />
+    <Content Include="App_Data\RadCaptcha\8.wav" />
+    <Content Include="App_Data\RadCaptcha\9.wav" />
+    <Content Include="App_Data\RadCaptcha\A.wav" />
+    <Content Include="App_Data\RadCaptcha\B.wav" />
+    <Content Include="App_Data\RadCaptcha\C.wav" />
+    <Content Include="App_Data\RadCaptcha\D.wav" />
+    <Content Include="App_Data\RadCaptcha\E.wav" />
+    <Content Include="App_Data\RadCaptcha\F.wav" />
+    <Content Include="App_Data\RadCaptcha\G.wav" />
+    <Content Include="App_Data\RadCaptcha\H.wav" />
+    <Content Include="App_Data\RadCaptcha\I.wav" />
+    <Content Include="App_Data\RadCaptcha\J.wav" />
+    <Content Include="App_Data\RadCaptcha\K.wav" />
+    <Content Include="App_Data\RadCaptcha\L.wav" />
+    <Content Include="App_Data\RadCaptcha\M.wav" />
+    <Content Include="App_Data\RadCaptcha\N.wav" />
+    <Content Include="App_Data\RadCaptcha\O.wav" />
+    <Content Include="App_Data\RadCaptcha\P.wav" />
+    <Content Include="App_Data\RadCaptcha\Q.wav" />
+    <Content Include="App_Data\RadCaptcha\R.wav" />
+    <Content Include="App_Data\RadCaptcha\S.wav" />
+    <Content Include="App_Data\RadCaptcha\T.wav" />
+    <Content Include="App_Data\RadCaptcha\U.wav" />
+    <Content Include="App_Data\RadCaptcha\V.wav" />
+    <Content Include="App_Data\RadCaptcha\W.wav" />
+    <Content Include="App_Data\RadCaptcha\X.wav" />
+    <Content Include="App_Data\RadCaptcha\Y.wav" />
+    <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="CanvasAreaCoupon.aspx" />
+    <Content Include="CanvasAreaMuSite.aspx" />
+    <Content Include="CanvasAreaPromoTwo.aspx" />
+    <Content Include="CanvasAreaPromoOne.aspx" />
+    <Content Include="CanvasAreaPromoVideo.aspx" />
+    <Content Include="CanvasAreaSweepstakes.aspx" />
+    <Content Include="CanvasAreaYoutubeVideoUpload.aspx" />
+    <Content Include="Captcha.aspx" />
+    <Content Include="channel.html" />
+    <Content Include="Confirmation.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="CreateApp.aspx" />
+    <Content Include="CreationCentral.aspx" />
+    <Content Include="EditCanvasAreaCoupon.aspx" />
+    <Content Include="EditCanvasAreaPromoOne.aspx" />
+    <Content Include="EditCanvasAreaPromoTwo.aspx" />
+    <Content Include="EditCanvasAreaPromoVideo.aspx" />
+    <Content Include="EditCanvasAreaSweepstakes.aspx" />
+    <Content Include="EmailCoupon.aspx" />
+    <Content Include="EntrySweepStake.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="FAQ.aspx" />
+    <Content Include="FBEnquiry.aspx" />
+    <Content Include="FBNotify.aspx" />
+    <Content Include="FBPopUpUtil.aspx" />
+    <Content Include="FeatureList.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Images\0.png" />
+    <Content Include="Images\1.png" />
+    <Content Include="Images\1327914401_edit.png" />
+    <Content Include="Images\1327914458_gnumeric.png" />
+    <Content Include="Images\2.png" />
+    <Content Include="Images\3.png" />
+    <Content Include="Images\3barsanalytics.png" />
+    <Content Include="Images\4.png" />
+    <Content Include="Images\60days6.png" />
+    <Content Include="Images\aboutus.png" />
+    <Content Include="Images\AddStuffBG.png" />
+    <Content Include="Images\AddstuffforHTML250X760.png" />
+    <Content Include="Images\adminloginpopup.png" />
+    <Content Include="Images\Analytics-1.jpg" />
+    <Content Include="Images\analytics-2.jpg" />
+    <Content Include="Images\analytics-3.jpg" />
+    <Content Include="Images\analytics.png" />
+    <Content Include="Images\analytics_Bottom_button.png" />
+    <Content Include="Images\Analytics_KM.png" />
+    <Content Include="Images\Analytics_PS.png" />
+    <Content Include="Images\arrow-next.png" />
+    <Content Include="Images\arrow-prev.png" />
+    <Content Include="Images\arrow_error.png" />
+    <Content Include="Images\background fill gray.png" />
+    <Content Include="Images\backgroundimg.png" />
+    <Content Include="Images\back_button.png" />
+    <Content Include="Images\back_button_Error.png" />
+    <Content Include="Images\banner_Main.jpg" />
+    <Content Include="Images\banner_repeatbg.png" />
+    <Content Include="Images\banner_top.png" />
+    <Content Include="Images\banner_top_old.png" />
+    <Content Include="Images\bar.png" />
+    <Content Include="Images\bg-fade.png" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bg_fil_gray_CustTAB.png" />
+    <Content Include="Images\bg_form.png" />
+    <Content Include="Images\bg_input.png" />
+    <Content Include="Images\bg_upload.jpg" />
+    <Content Include="Images\bl.png" />
+    <Content Include="Images\blank.gif" />
+    <Content Include="Images\blankfrank.png" />
+    <Content Include="Images\BMW_logo.png" />
+    <Content Include="Images\bottom_bannerbg.png" />
+    <Content Include="Images\br.png" />
+    <Content Include="Images\Brochure_Design.png" />
+    <Content Include="Images\btn_sign_up_off.png" />
+    <Content Include="Images\btn_sign_up_on.png" />
+    <Content Include="Images\bullets.png" />
+    <Content Include="Images\button-left.png" />
+    <Content Include="Images\button-right.png" />
+    <Content Include="Images\button.png" />
+    <Content Include="Images\button1.png" />
+    <Content Include="Images\buttonbg.png" />
+    <Content Include="Images\buttonbgHover.png" />
+    <Content Include="Images\button_hover.png" />
+    <Content Include="Images\button_tophover.png" />
+    <Content Include="Images\button_top_bg.png" />
+    <Content Include="Images\campaign__Bottom_button.png" />
+    <Content Include="Images\cancel_F.png" />
+    <Content Include="Images\cancel_L.png" />
+    <Content Include="Images\checkbox.png" />
+    <Content Include="Images\Close.png" />
+    <Content Include="Images\closebutton.png" />
+    <Content Include="Images\close_login.png" />
+    <Content Include="Images\clouds.gif" />
+    <Content Include="Images\columnBg.png" />
+    <Content Include="Images\columnTop.gif" />
+    <Content Include="Images\ComingSoon.png" />
+    <Content Include="Images\ComingSoon_Final.png" />
+    <Content Include="Images\computer.png" />
+    <Content Include="Images\configMgrBG.png" />
+    <Content Include="Images\contact.png" />
+    <Content Include="Images\container_bg.png" />
+    <Content Include="Images\Contest.png" />
+    <Content Include="Images\contest_new.png" />
+    <Content Include="Images\Coupons.jpg" />
+    <Content Include="Images\Coupons.png" />
+    <Content Include="Images\coupon_scissor_border_edit1.png" />
+    <Content Include="Images\create.jpg" />
+    <Content Include="Images\create_campaigns.png" />
+    <Content Include="Images\dashboard.jpg" />
+    <Content Include="Images\dashboard_hover.jpg" />
+    <Content Include="Images\Deals.png" />
+    <Content Include="Images\deals_new.png" />
+    <Content Include="Images\DEMO.png" />
+    <Content Include="Images\download.png" />
+    <Content Include="Images\download1.jpg" />
+    <Content Include="Images\download2.jpg" />
+    <Content Include="Images\email.png" />
+    <Content Include="Images\engaged__Bottom_button.png" />
+    <Content Include="Images\Engagement.png" />
+    <Content Include="Images\Facebook-Like-Button.png" />
+    <Content Include="Images\facebook-login-button.png" />
+    <Content Include="Images\facebook-logo-small.jpg" />
+    <Content Include="Images\facebook_btn.png" />
+    <Content Include="Images\fancybox-x.png" />
+    <Content Include="Images\fancybox-y.png" />
+    <Content Include="Images\fancybox.png" />
+    <Content Include="Images\fancy_close.png" />
+    <Content Include="Images\fancy_loading.png" />
+    <Content Include="Images\fancy_nav_left.png" />
+    <Content Include="Images\fancy_nav_right.png" />
+    <Content Include="Images\fancy_shadow_e.png" />
+    <Content Include="Images\fancy_shadow_n.png" />
+    <Content Include="Images\fancy_shadow_ne.png" />
+    <Content Include="Images\fancy_shadow_nw.png" />
+    <Content Include="Images\fancy_shadow_s.png" />
+    <Content Include="Images\fancy_shadow_se.png" />
+    <Content Include="Images\fancy_shadow_sw.png" />
+    <Content Include="Images\fancy_shadow_w.png" />
+    <Content Include="Images\fancy_title_left.png" />
+    <Content Include="Images\fancy_title_main.png" />
+    <Content Include="Images\fancy_title_over.png" />
+    <Content Include="Images\fancy_title_right.png" />
+    <Content Include="Images\faq.png" />
+    <Content Include="Images\fb-comment_Preview.jpg" />
+    <Content Include="Images\fb-like-button.png" />
+    <Content Include="Images\featurelist.png" />
+    <Content Include="Images\file.png" />
+    <Content Include="Images\footer_container.png" />
+    <Content Include="Images\foreword.png" />
+    <Content Include="Images\free_trial.png" />
+    <Content Include="Images\getr_started.png" />
+    <Content Include="Images\gets_started.png" />
+    <Content Include="Images\get_started_final.png" />
+    <Content Include="Images\Graph-icon.png" />
+    <Content Include="Images\greytop_border.jpg" />
+    <Content Include="Images\greytop_border.png" />
+    <Content Include="Images\GroupDeals.png" />
+    <Content Include="Images\group_deals.png" />
+    <Content Include="Images\help_questionmark.png" />
+    <Content Include="Images\home_icon.png" />
+    <Content Include="Images\home_icon1.png" />
+    <Content Include="Images\images1.jpg" />
+    <Content Include="Images\images2.jpg" />
+    <Content Include="Images\images3.jpg" />
+    <Content Include="Images\images4.jpg" />
+    <Content Include="Images\images6.jpg" />
+    <Content Include="Images\images7.jpg" />
+    <Content Include="Images\images8.jpg" />
+    <Content Include="Images\img_navsprites.gif" />
+    <Content Include="Images\input-left.png" />
+    <Content Include="Images\input-right.png" />
+    <Content Include="Images\input.png" />
+    <Content Include="Images\inquiry_step3.png" />
+    <Content Include="Images\learnmore.png" />
+    <Content Include="Images\leftColumn.gif" />
+    <Content Include="Images\left_arrow.png" />
+    <Content Include="Images\left_banner.png" />
+    <Content Include="Images\left_upload.jpg" />
+    <Content Include="Images\like_step3.png" />
+    <Content Include="Images\like_us_to_proceed.jpg" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\loginArrow.png" />
+    <Content Include="Images\loginbuttonbg.png" />
+    <Content Include="Images\login_F.png" />
+    <Content Include="Images\login_L.png" />
+    <Content Include="Images\login_verdana12pt.png" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logo9ol.png" />
+    <Content Include="Images\logosmnetserv.jpg" />
+    <Content Include="Images\logo_black_bg.jpg" />
+    <Content Include="Images\logo_Post.png" />
+    <Content Include="Images\LP-1.png" />
+    <Content Include="Images\LP-2.png" />
+    <Content Include="Images\LP-3.png" />
+    <Content Include="Images\LP-4.png" />
+    <Content Include="Images\LP-5.png" />
+    <Content Include="Images\maintenance.png" />
+    <Content Include="Images\Main_body_BG.png" />
+    <Content Include="Images\master_banner.png" />
+    <Content Include="Images\master_bannerold.png" />
+    <Content Include="Images\master_bg.png" />
+    <Content Include="Images\menubg_hover.jpg" />
+    <Content Include="Images\menu_bg.jpg" />
+    <Content Include="Images\menu_nav.png" />
+    <Content Include="Images\Monetize.png" />
+    <Content Include="Images\nav-about-icon.png" />
+    <Content Include="Images\nav-about.png" />
+    <Content Include="Images\nav-bg.jpg" />
+    <Content Include="Images\nav-blog-icon.png" />
+    <Content Include="Images\nav-blog.png" />
+    <Content Include="Images\nav-contact-icon.png" />
+    <Content Include="Images\nav-contact.png" />
+    <Content Include="Images\nav-home-icon.png" />
+    <Content Include="Images\nav-home.png" />
+    <Content Include="Images\navhome.png" />
+    <Content Include="Images\navhome_hover.png" />
+    <Content Include="Images\nav_sep.png" />
+    <Content Include="Images\New.jpg" />
+    <Content Include="Images\New.png" />
+    <Content Include="Images\newlogo_200x100.png" />
+    <Content Include="Images\next_button.png" />
+    <Content Include="Images\no_thanks_F.png" />
+    <Content Include="Images\no_thanks_Final.png" />
+    <Content Include="Images\no_thanks_L.png" />
+    <Content Include="Images\pagination.png" />
+    <Content Include="Images\Platform.png" />
+    <Content Include="Images\POST_BG.png" />
+    <Content Include="Images\preview.png" />
+    <Content Include="Images\Preview_BAckGround.png" />
+    <Content Include="Images\preview_button.png" />
+    <Content Include="Images\preview_F.png" />
+    <Content Include="Images\preview_Final.png" />
+    <Content Include="Images\preview_L.png" />
+    <Content Include="Images\Preview_New.png" />
+    <Content Include="Images\prev_button.png" />
+    <Content Include="Images\print.png" />
+    <Content Include="Images\Promo.png" />
+    <Content Include="Images\PromoImg.png" />
+    <Content Include="Images\Promotions-01.png" />
+    <Content Include="Images\Promotions-01_Final.png" />
+    <Content Include="Images\Promotions-01_L.png" />
+    <Content Include="Images\Promotions-01_large.png" />
+    <Content Include="Images\Promotions-01_NEW.png" />
+    <Content Include="Images\Promotions-02.png" />
+    <Content Include="Images\Promotions-02_Final.png" />
+    <Content Include="Images\Promotions-02_L.png" />
+    <Content Include="Images\Promotions-02_large.png" />
+    <Content Include="Images\Promotions-03.png" />
+    <Content Include="Images\Promotions-03_Corerct.png" />
+    <Content Include="Images\Promotions-03_Final.png" />
+    <Content Include="Images\Promotions-03_large.png" />
+    <Content Include="Images\Promotions.jpg" />
+    <Content Include="Images\promotions.png" />
+    <Content Include="Images\PromotionsPNG.png" />
+    <Content Include="Images\Promotions_PS.png" />
+    <Content Include="Images\publish_to_FB.png" />
+    <Content Include="Images\pub_facebook_F.png" />
+    <Content Include="Images\pub_facebook_Final.png" />
+    <Content Include="Images\pub_facebook_L.png" />
+    <Content Include="Images\qicon.png" />
+    <Content Include="Images\radio.png" />
+    <Content Include="Images\recommend_step3.png" />
+    <Content Include="Images\required.png" />
+    <Content Include="Images\reset.png" />
+    <Content Include="Images\right_arrow.png" />
+    <Content Include="Images\right_banner.png" />
+    <Content Include="Images\SampleTemplate.png" />
+    <Content Include="Images\SampleTemplateCarousel.png" />
+    <Content Include="Images\save_continue.png" />
+    <Content Include="Images\save_F.png" />
+    <Content Include="Images\save_L.png" />
+    <Content Include="Images\select-left.png" />
+    <Content Include="Images\select-right.png" />
+    <Content Include="Images\select_publish.png" />
+    <Content Include="Images\share_step3.png" />
+    <Content Include="Images\signin_final.png" />
+    <Content Include="Images\slider_analytics.jpg" />
+    <Content Include="Images\slider_brand.jpg" />
+    <Content Include="Images\slider_build_engagemnt.jpg" />
+    <Content Include="Images\slider_monitize.jpg" />
+    <Content Include="Images\slider_redefine.jpg" />
+    <Content Include="Images\smnetserv.png" />
+    <Content Include="Images\SNR_facebook.png" />
+    <Content Include="Images\SNR_inquiry.png" />
+    <Content Include="Images\SNR_recommend.png" />
+    <Content Include="Images\SNR_twitter.png" />
+    <Content Include="Images\sonetlogo.png" />
+    <Content Include="Images\sonetreachicon.ico" />
+    <Content Include="Images\sonet_watermark.png" />
+    <Content Include="Images\sorry-dog1.jpg" />
+    <Content Include="Images\spacer.png" />
+    <Content Include="Images\sprite.png" />
+    <Content Include="Images\submit_F.png" />
+    <Content Include="Images\submit_Final.png" />
+    <Content Include="Images\submit_L.png" />
+    <Content Include="Images\subpage_bannerbg.png" />
+    <Content Include="Images\Sweep.png" />
+    <Content Include="Images\sweep2.png" />
+    <Content Include="Images\Sweepstakes.jpg" />
+    <Content Include="Images\Sweepstakes.png" />
+    <Content Include="Images\SweepstakesSampleCarousel.png" />
+    <Content Include="Images\SweepstakesSample_large.png" />
+    <Content Include="Images\Sweepstakes_Final.png" />
+    <Content Include="Images\Sweepstakes_Final_res.png" />
+    <Content Include="Images\Sweepstakes_L.png" />
+    <Content Include="Images\Sweepstakes_LAnding.png" />
+    <Content Include="Images\Sweepstakes_Small_S.png" />
+    <Content Include="Images\td-bg.png" />
+    <Content Include="Images\TemplateListBG.png" />
+    <Content Include="Images\TemplateListDiv110X760.png" />
+    <Content Include="Images\TemplateShowBG.png" />
+    <Content Include="Images\TemplateShowDIV760X760.jpg" />
+    <Content Include="Images\textarea-bl.png" />
+    <Content Include="Images\textarea-br.png" />
+    <Content Include="Images\textarea-r-off.png" />
+    <Content Include="Images\textarea-r-over.png" />
+    <Content Include="Images\textarea-tl.png" />
+    <Content Include="Images\textarea-tr-ie.png" />
+    <Content Include="Images\textarea-tr.png" />
+    <Content Include="Images\th-bg.png" />
+    <Content Include="Images\th-bg2.png" />
+    <Content Include="Images\Time.png" />
+    <Content Include="Images\tipBtm.png" />
+    <Content Include="Images\tipMid.png" />
+    <Content Include="Images\tipTop.png" />
+    <Content Include="Images\tl.png" />
+    <Content Include="Images\toolsnglobe.png" />
+    <Content Include="Images\top_bannerbg.png" />
+    <Content Include="Images\tr.png" />
+    <Content Include="Images\try-button.png" />
+    <Content Include="Images\try-button_1.png" />
+    <Content Include="Images\tweet.jpg" />
+    <Content Include="Images\upload_F.png" />
+    <Content Include="Images\upload_Final.png" />
+    <Content Include="Images\upload_L.png" />
+    <Content Include="Images\usercomments_step3.png" />
+    <Content Include="Images\Video.jpg" />
+    <Content Include="Images\Video_Share_L.png" />
+    <Content Include="Images\VidShare.png" />
+    <Content Include="Images\Webhut\1page-img.jpg" />
+    <Content Include="Images\Webhut\2page-img.jpg" />
+    <Content Include="Images\Webhut\3page-img.jpg" />
+    <Content Include="Images\Webhut\banner.jpg" />
+    <Content Include="Images\Webhut\banner2.jpg" />
+    <Content Include="Images\Webhut\border-bot.gif" />
+    <Content Include="Images\Webhut\border-bot1.gif" />
+    <Content Include="Images\Webhut\border-top.gif" />
+    <Content Include="Images\Webhut\border-top1.gif" />
+    <Content Include="Images\Webhut\boxbg.gif" />
+    <Content Include="Images\Webhut\button.gif" />
+    <Content Include="Images\Webhut\edit_index_photo.JPG" />
+    <Content Include="Images\Webhut\fb-like-button.png" />
+    <Content Include="Images\Webhut\header-bg.jpg" />
+    <Content Include="Images\Webhut\Hydrangeas.jpg" />
+    <Content Include="Images\Webhut\left-bot-corner.gif" />
+    <Content Include="Images\Webhut\left-bot-corner1.gif" />
+    <Content Include="Images\Webhut\left-top-corner.gif" />
+    <Content Include="Images\Webhut\left-top-corner1.gif" />
+    <Content Include="Images\Webhut\link1-left.gif" />
+    <Content Include="Images\Webhut\link1-right.gif" />
+    <Content Include="Images\Webhut\link1-tail.gif" />
+    <Content Include="Images\Webhut\logo.gif" />
+    <Content Include="Images\Webhut\next.png" />
+    <Content Include="Images\Webhut\pic1.gif" />
+    <Content Include="Images\Webhut\pic2.gif" />
+    <Content Include="Images\Webhut\pic3.gif" />
+    <Content Include="Images\Webhut\pic4.gif" />
+    <Content Include="Images\Webhut\pic5.gif" />
+    <Content Include="Images\Webhut\prev.png" />
+    <Content Include="Images\Webhut\right-bot-corner.gif" />
+    <Content Include="Images\Webhut\right-bot-corner1.gif" />
+    <Content Include="Images\Webhut\right-top-corner.gif" />
+    <Content Include="Images\Webhut\right-top-corner1.gif" />
+    <Content Include="Images\Webhut\slide-img1.jpg" />
+    <Content Include="Images\Webhut\slide-img2.jpg" />
+    <Content Include="Images\Webhut\slide-img3.jpg" />
+    <Content Include="Images\Webhut\slide-img4.jpg" />
+    <Content Include="Images\Webhut\slide-img5.jpg" />
+    <Content Include="Images\Webhut\slide-img6.jpg" />
+    <Content Include="Images\Webhut\slogan.gif" />
+    <Content Include="Images\Webhut\SNR_facebook.png" />
+    <Content Include="Images\Webhut\SNR_inquiry.png" />
+    <Content Include="Images\Webhut\SNR_recommend.png" />
+    <Content Include="Images\Webhut\SNR_twitter.png" />
+    <Content Include="Images\Webhut\spacer.gif" />
+    <Content Include="Images\Webhut\tail-top-left.gif" />
+    <Content Include="Images\Webhut\updated_slide-img1.jpg" />
+    <Content Include="Images\Webhut\updated_slide-img2.jpg" />
+    <Content Include="Images\Webhut\updated_slide-img3.jpg" />
+    <Content Include="Images\Widgets.png" />
+    <Content Include="MobileRedirect.aspx" />
+    <Content Include="QuickRegister.aspx" />
+    <Content Include="Resources\Brochure.jpg" />
+    <Content Include="Images\yellow_button.png" />
+    <Content Include="Info.aspx" />
+    <Content Include="KnowMore.aspx" />
+    <Content Include="LandingPage.aspx" />
+    <Content Include="LearnMoreAnalytics.aspx" />
+    <Content Include="LearnMoreCampaignBuilder.aspx" />
+    <Content Include="NewPost.aspx" />
+    <Content Include="PreviewApp.aspx" />
+    <Content Include="PreviewLanding.aspx" />
+    <Content Include="Pricing.aspx" />
+    <Content Include="PrintCoupon.aspx" />
+    <Content Include="PrivacyPolicy.aspx" />
+    <Content Include="ProductSuite.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Reset_Password.aspx" />
+    <Content Include="Resources.aspx" />
+    <Content Include="Resources\brochure_snr.jpg" />
+    <Content Include="ScriptsSonetReach\carousel.js" />
+    <Content Include="ScriptsSonetReach\Fancybox\blank.gif" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancybox-x.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancybox-y.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancybox.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_close.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_loading.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_nav_left.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_nav_right.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_shadow_e.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_shadow_n.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_shadow_ne.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_shadow_nw.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_shadow_s.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_shadow_se.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_shadow_sw.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_shadow_w.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_title_left.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_title_main.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_title_over.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\fancy_title_right.png" />
+    <Content Include="ScriptsSonetReach\Fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="ScriptsSonetReach\Fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="ScriptsSonetReach\Fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="ScriptsSonetReach\Fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="ScriptsSonetReach\Fancybox\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="ScriptsSonetReach\Fancybox\jquery.watermark.min.js" />
+    <Content Include="ScriptsSonetReach\Fancy_Patch.js" />
+    <Content Include="ScriptsSonetReach\jquery-1.5.0.min.js" />
+    <Content Include="ScriptsSonetReach\jquery-1.7.1.min.js" />
+    <Content Include="ScriptsSonetReach\jquery-qtip2.js" />
+    <Content Include="ScriptsSonetReach\jquery-ui-1.8.17.custom.min.js" />
+    <Content Include="ScriptsSonetReach\jquery.betterTooltip.js" />
+    <Content Include="ScriptsSonetReach\jquery.calendrical.js" />
+    <Content Include="ScriptsSonetReach\jquery.easing-1.3.pack.js" />
+    <Content Include="ScriptsSonetReach\jquery.fancybox-1.3.4.css" />
+    <Content Include="ScriptsSonetReach\jquery.fancybox-1.3.4.js" />
+    <Content Include="ScriptsSonetReach\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="ScriptsSonetReach\jquery.js" />
+    <Content Include="ScriptsSonetReach\jquery.min.js" />
+    <Content Include="ScriptsSonetReach\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="ScriptsSonetReach\jquery.newsticker.js" />
+    <Content Include="ScriptsSonetReach\jquery.nivo.slider.js" />
+    <Content Include="ScriptsSonetReach\jquery.nivo.slider.pack.js" />
+    <Content Include="ScriptsSonetReach\jquery.simplemodal.js" />
+    <Content Include="ScriptsSonetReach\jquery.watermark.js" />
+    <Content Include="ScriptsSonetReach\jquery.watermark.min.js" />
+    <Content Include="ScriptsSonetReach\login.js" />
+    <Content Include="ScriptsSonetReach\Menuhover.js" />
+    <Content Include="ScriptsSonetReach\MenuHoverIE.js" />
+    <Content Include="ScriptsSonetReach\osx.js" />
+    <None Include="App_Data\RadSpell\de-DE.tdf" />
+    <None Include="App_Data\RadSpell\en-US.tdf" />
+    <None Include="App_Data\RadSpell\fr-FR.tdf" />
+    <None Include="Images\images.rar" />
+    <Content Include="ScriptsSonetReach\PageToload.js" />
+    <Content Include="ScriptsSonetReach\RegisterValidation.js" />
+    <Content Include="ScriptsSonetReach\slides.min.jquery.js" />
+    <Content Include="ScriptsSonetReach\sliding.form.js" />
+    <Content Include="ScriptsSonetReach\tabs.js" />
+    <Content Include="ScriptsSonetReach\tos.js" />
+    <Content Include="SelectPage.aspx" />
+    <Content Include="SMTweet.aspx" />
+    <Content Include="SonetReachPDA.aspx" />
+    <Content Include="Styles\calendrical.css" />
+    <Content Include="Styles\Chrome.css" />
+    <Content Include="Styles\Coupon.css" />
+    <Content Include="Styles\CouponTab.css" />
+    <Content Include="Styles\default_nivo.css" />
+    <Content Include="Styles\format.css" />
+    <Content Include="Styles\ie7.css" />
+    <Content Include="Styles\master_style.css" />
+    <Content Include="Styles\master_style1.css" />
+    <Content Include="Styles\menu_style.css" />
+    <Content Include="Styles\niceforms-default.css" />
+    <Content Include="Styles\nivo-slider.css" />
+    <Content Include="Styles\style1.css" />
+    <Content Include="Styles\stylesheet.css" />
+    <None Include="Images\Webhut\Thumbs.db" />
+    <None Include="Properties\DataSources\DigiMa.Service.CompositeType.datasource" />
+    <Content Include="Styles\demo.css" />
+    <Content Include="Styles\osx.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="ScriptsSonetReach\jquery-1.4.1-vsdoc.js" />
+    <Content Include="ScriptsSonetReach\jquery-1.4.1.js" />
+    <Content Include="ScriptsSonetReach\jquery-1.4.1.min.js" />
+    <Content Include="Styles\stylesheet1.css" />
+    <Content Include="Styles\StyleSheet2.css" />
+    <Content Include="Styles\styleTooltip.css" />
+    <Content Include="Styles\style_new_menu.css" />
+    <Content Include="Styles\style_slider.css" />
+    <Content Include="SweepstakesWinners.aspx" />
+    <Content Include="TermsConditions.aspx" />
+    <Content Include="Test.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\Aoresh.aspx.cs">
+      <DependentUpon>Aoresh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\Aoresh.aspx.designer.cs">
+      <DependentUpon>Aoresh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\DateWiseDrillDown.aspx.cs">
+      <DependentUpon>DateWiseDrillDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\DateWiseDrillDown.aspx.designer.cs">
+      <DependentUpon>DateWiseDrillDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\FromLacationgenderDrillDown.aspx.cs">
+      <DependentUpon>FromLacationgenderDrillDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\FromLacationgenderDrillDown.aspx.designer.cs">
+      <DependentUpon>FromLacationgenderDrillDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\FromLacationgenderDrillDown2.aspx.cs">
+      <DependentUpon>FromLacationgenderDrillDown2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\FromLacationgenderDrillDown2.aspx.designer.cs">
+      <DependentUpon>FromLacationgenderDrillDown2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\FromLocationgenderDrillDown1.aspx.cs">
+      <DependentUpon>FromLocationgenderDrillDown1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\FromLocationgenderDrillDown1.aspx.designer.cs">
+      <DependentUpon>FromLocationgenderDrillDown1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\GenderWiseDrillDown.aspx.cs">
+      <DependentUpon>GenderWiseDrillDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\GenderWiseDrillDown.aspx.designer.cs">
+      <DependentUpon>GenderWiseDrillDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\LevelsDrillDown.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LevelsDrillDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\LevelsDrillDown.aspx.designer.cs">
+      <DependentUpon>LevelsDrillDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\LocationWiseDrillDown.aspx.cs">
+      <DependentUpon>LocationWiseDrillDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\LocationWiseDrillDown.aspx.designer.cs">
+      <DependentUpon>LocationWiseDrillDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\LocationWiseDrillDown1.aspx.cs">
+      <DependentUpon>LocationWiseDrillDown1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\LocationWiseDrillDown1.aspx.designer.cs">
+      <DependentUpon>LocationWiseDrillDown1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\LocationWiseDrillDown2.aspx.cs">
+      <DependentUpon>LocationWiseDrillDown2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\LocationWiseDrillDown2.aspx.designer.cs">
+      <DependentUpon>LocationWiseDrillDown2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Analytics\SonetReachAnalyticsMain.aspx.cs">
+      <DependentUpon>SonetReachAnalyticsMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Analytics\SonetReachAnalyticsMain.aspx.designer.cs">
+      <DependentUpon>SonetReachAnalyticsMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppBuilder.aspx.cs">
+      <DependentUpon>AppBuilder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppBuilder.aspx.designer.cs">
+      <DependentUpon>AppBuilder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasAreaCoupon.aspx.cs">
+      <DependentUpon>CanvasAreaCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CanvasAreaCoupon.aspx.designer.cs">
+      <DependentUpon>CanvasAreaCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasAreaMuSite.aspx.cs">
+      <DependentUpon>CanvasAreaMuSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CanvasAreaMuSite.aspx.designer.cs">
+      <DependentUpon>CanvasAreaMuSite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasAreaPromoTwo.aspx.cs">
+      <DependentUpon>CanvasAreaPromoTwo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CanvasAreaPromoTwo.aspx.designer.cs">
+      <DependentUpon>CanvasAreaPromoTwo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasAreaPromoOne.aspx.cs">
+      <DependentUpon>CanvasAreaPromoOne.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CanvasAreaPromoOne.aspx.designer.cs">
+      <DependentUpon>CanvasAreaPromoOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasAreaPromoVideo.aspx.cs">
+      <DependentUpon>CanvasAreaPromoVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CanvasAreaPromoVideo.aspx.designer.cs">
+      <DependentUpon>CanvasAreaPromoVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasAreaSweepstakes.aspx.cs">
+      <DependentUpon>CanvasAreaSweepstakes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CanvasAreaSweepstakes.aspx.designer.cs">
+      <DependentUpon>CanvasAreaSweepstakes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CanvasAreaYoutubeVideoUpload.aspx.cs">
+      <DependentUpon>CanvasAreaYoutubeVideoUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CanvasAreaYoutubeVideoUpload.aspx.designer.cs">
+      <DependentUpon>CanvasAreaYoutubeVideoUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captcha.aspx.cs">
+      <DependentUpon>Captcha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captcha.aspx.designer.cs">
+      <DependentUpon>Captcha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaptchaImage.cs" />
+    <Compile Include="Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirmation.aspx.designer.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateApp.aspx.cs">
+      <DependentUpon>CreateApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateApp.aspx.designer.cs">
+      <DependentUpon>CreateApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreationCentral.aspx.cs">
+      <DependentUpon>CreationCentral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreationCentral.aspx.designer.cs">
+      <DependentUpon>CreationCentral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCanvasAreaCoupon.aspx.cs">
+      <DependentUpon>EditCanvasAreaCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCanvasAreaCoupon.aspx.designer.cs">
+      <DependentUpon>EditCanvasAreaCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCanvasAreaPromoOne.aspx.cs">
+      <DependentUpon>EditCanvasAreaPromoOne.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCanvasAreaPromoOne.aspx.designer.cs">
+      <DependentUpon>EditCanvasAreaPromoOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCanvasAreaPromoTwo.aspx.cs">
+      <DependentUpon>EditCanvasAreaPromoTwo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCanvasAreaPromoTwo.aspx.designer.cs">
+      <DependentUpon>EditCanvasAreaPromoTwo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCanvasAreaPromoVideo.aspx.cs">
+      <DependentUpon>EditCanvasAreaPromoVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCanvasAreaPromoVideo.aspx.designer.cs">
+      <DependentUpon>EditCanvasAreaPromoVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCanvasAreaSweepstakes.aspx.cs">
+      <DependentUpon>EditCanvasAreaSweepstakes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCanvasAreaSweepstakes.aspx.designer.cs">
+      <DependentUpon>EditCanvasAreaSweepstakes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmailCoupon.aspx.cs">
+      <DependentUpon>EmailCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmailCoupon.aspx.designer.cs">
+      <DependentUpon>EmailCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EntrySweepStake.aspx.cs">
+      <DependentUpon>EntrySweepStake.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EntrySweepStake.aspx.designer.cs">
+      <DependentUpon>EntrySweepStake.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FBEnquiry.aspx.cs">
+      <DependentUpon>FBEnquiry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FBNotify.aspx.cs">
+      <DependentUpon>FBNotify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FBNotify.aspx.designer.cs">
+      <DependentUpon>FBNotify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FBPopUpUtil.aspx.cs">
+      <DependentUpon>FBPopUpUtil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FBPopUpUtil.aspx.designer.cs">
+      <DependentUpon>FBPopUpUtil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureList.aspx.cs">
+      <DependentUpon>FeatureList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeatureList.aspx.designer.cs">
+      <DependentUpon>FeatureList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\Functions.cs" />
+    <Compile Include="Framework\Proxy.cs" />
+    <Compile Include="Framework\sNBBPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Framework\sNBBPMobile.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageRequestHandler.cs" />
+    <Compile Include="Info.aspx.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Info.aspx.designer.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KnowMore.aspx.cs">
+      <DependentUpon>KnowMore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KnowMore.aspx.designer.cs">
+      <DependentUpon>KnowMore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LandingPage.aspx.cs">
+      <DependentUpon>LandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LearnMoreAnalytics.aspx.cs">
+      <DependentUpon>LearnMoreAnalytics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LearnMoreAnalytics.aspx.designer.cs">
+      <DependentUpon>LearnMoreAnalytics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LearnMoreCampaignBuilder.aspx.cs">
+      <DependentUpon>LearnMoreCampaignBuilder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LearnMoreCampaignBuilder.aspx.designer.cs">
+      <DependentUpon>LearnMoreCampaignBuilder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileRedirect.aspx.cs">
+      <DependentUpon>MobileRedirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileRedirect.aspx.designer.cs">
+      <DependentUpon>MobileRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewPost.aspx.cs">
+      <DependentUpon>NewPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewPost.aspx.designer.cs">
+      <DependentUpon>NewPost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewApp.aspx.cs">
+      <DependentUpon>PreviewApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreviewApp.aspx.designer.cs">
+      <DependentUpon>PreviewApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewLanding.aspx.cs">
+      <DependentUpon>PreviewLanding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreviewLanding.aspx.designer.cs">
+      <DependentUpon>PreviewLanding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing.aspx.cs">
+      <DependentUpon>Pricing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pricing.aspx.designer.cs">
+      <DependentUpon>Pricing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintCoupon.aspx.cs">
+      <DependentUpon>PrintCoupon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintCoupon.aspx.designer.cs">
+      <DependentUpon>PrintCoupon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.designer.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductSuite.aspx.cs">
+      <DependentUpon>ProductSuite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductSuite.aspx.designer.cs">
+      <DependentUpon>ProductSuite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickRegister.aspx.cs">
+      <DependentUpon>QuickRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuickRegister.aspx.designer.cs">
+      <DependentUpon>QuickRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reset_Password.aspx.cs">
+      <DependentUpon>Reset_Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reset_Password.aspx.designer.cs">
+      <DependentUpon>Reset_Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources.aspx.cs">
+      <DependentUpon>Resources.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resources.aspx.designer.cs">
+      <DependentUpon>Resources.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectPage.aspx.cs">
+      <DependentUpon>SelectPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectPage.aspx.designer.cs">
+      <DependentUpon>SelectPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SMTweet.aspx.cs">
+      <DependentUpon>SMTweet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SMTweet.aspx.designer.cs">
+      <DependentUpon>SMTweet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SonetReachPDA.aspx.cs">
+      <DependentUpon>SonetReachPDA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SonetReachPDA.aspx.designer.cs">
+      <DependentUpon>SonetReachPDA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SweepstakesWinners.aspx.cs">
+      <DependentUpon>SweepstakesWinners.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SweepstakesWinners.aspx.designer.cs">
+      <DependentUpon>SweepstakesWinners.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TermsConditions.aspx.cs">
+      <DependentUpon>TermsConditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TermsConditions.aspx.designer.cs">
+      <DependentUpon>TermsConditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DigiMa.BizProcess\DigiMa.BizProcess.csproj">
+      <Project>{DDE8433D-D41D-4869-BAE5-59B7D295CE3F}</Project>
+      <Name>DigiMa.BizProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DigiMa.Common\DigiMa.Common.csproj">
+      <Project>{6EF738BA-88E2-40B8-B19F-00AD895D179F}</Project>
+      <Name>DigiMa.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DigiMa.Data\DigiMa.Data.csproj">
+      <Project>{D2CDEEC6-E8D5-4322-8637-7F399E2A9FB6}</Project>
+      <Name>DigiMa.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DigiMa.Service\DigiMa.Service.csproj">
+      <Project>{527A0E6B-4898-4FDA-B038-011E8EAD4E36}</Project>
+      <Name>DigiMa.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51705</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/DigiMa</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

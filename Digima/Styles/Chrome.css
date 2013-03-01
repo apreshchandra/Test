@@ -1,0 +1,23 @@
+﻿@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    /* the CSS styling below will only be picked up by Safari and Chrome */
+
+    .captcha
+    {
+        text-align: left;
+        position: relative;
+        left: -2px;
+    }
+    
+    .adminlolginpopup
+{
+    background: none repeat scroll 0 0 #ECECEC;
+    border: 5px solid #F6BF4B;
+    border-radius: 3px 3px 3px 3px;
+    height: 260px;
+    margin-left: 890px;
+    margin-top: 80px;
+    width: 400px;
+}
+
+}

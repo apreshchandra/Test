@@ -1,0 +1,106 @@
+﻿
+#businesswrapper {padding:0px 10px 10px 10px; border:0px solid #000000; background-color:#fff;text-align:center;}
+.businessimage {width:850px; height:700px;}
+
+.right {margin:0 auto; text-align:right; position :relative; width:850px; }        
+.businessimagediv {margin:0 auto;  position :relative;}        
+        
+.right ul li  
+{
+list-style-type:none;     
+display: inline ;
+padding: 0px 2px 0px 2px ;
+}
+.dynamic
+{
+    width: 33px;
+    height: 33px;
+}
+
+
+@media (min-width: 951px) and (max-width: 980px) 
+{  
+	.businessimage {width:780px; height:680px;}
+}
+
+@media (min-width:800px) and (max-width:950px) 
+{    
+	
+.right {margin:0 auto; text-align:right; position :relative; }  
+
+.right ul  
+{
+margin:0px 61px 0px 0px ;
+}
+
+.right ul li  
+{
+   display: inline-block;
+    list-style-type: none;
+    padding: 5px 5px 13px 0;
+}
+
+.FB_Like {
+    background-image: url("Images/fb-like-button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 22px;
+    width: 50px;
+    display:inline; border:1px solid #000;
+
+}      
+.businessimagediv {margin:0 auto;  position :relative; width:771px; }
+.businessimage {width:770px; height:680px;}			
+}
+	
+	
+@media (min-width:768px) and (max-width:799px) 	
+{	
+	
+	.right {margin:0 auto; text-align:right; position :relative; width:771px; }        
+.businessimagediv {margin:0 auto;  position :relative; width:771px; }
+.businessimage {width:771px; height:680px;}	
+}
+
+
+@media (min-width:601px) and (max-width:767px) 
+{    
+	
+	body {overflow-x: hidden;}
+	.businessimage {width:600px; height:680px;}
+}
+
+
+@media (min-width: 481px) and (max-width: 600px) 
+{ 	 
+	body {overflow-x: hidden;}
+	.businessimage {width:780px; height:680px;} 
+}
+    
+  
+  
+@media (min-width: 382px) and (max-width: 480px) 
+  {   
+	body {overflow-x: hidden;}
+	.businessimage {width:382px; height:340px;}		
+}	
+
+
+@media (min-width: 361px) and (max-width: 381px) 
+{			
+	 body {overflow-x: hidden; font-size:11px;}
+	 .businessimage {width:361px; height:340px;}
+}
+
+@media (min-width: 321px) and (max-width: 360px) 
+{			
+	 body {overflow-x: hidden; font-size:11px;}
+	 .businessimage {width:320px; height:340px;}	
+}
+
+
+@media (min-width: 200px) and (max-width: 320px) 
+{	
+	 body {overflow-x: hidden; font-size:11px;}	
+	 .businessimage {width:200px; height:340px;}		
+}

@@ -1,0 +1,809 @@
+/*Defaults Styling*/
+/*body
+{
+    color: #333333;
+    font: 12px/17px Arial,Helvetica,sans-serif;
+    padding: 40px 20px 20px;
+    background-image: url("../Images/Main_body_BG.png");
+}*/
+
+fieldset
+{
+    background: #f2f2e6;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-color: #fff #666661 #666661 #fff;
+    margin-bottom: 36px;
+    width: 600px;
+}
+textarea /*input,*/ /*input,*/
+{
+    font: 12px/12px Arial, Helvetica, sans-serif; /*padding-bottom: 6px;*/
+}
+#colorBlue #colorRed #colorGreen
+{
+    padding-bottom: 6px;
+}
+fieldset.action
+{
+    background: #9da2a6;
+    border-color: #e5e5e5 #797c80 #797c80 #e5e5e5;
+    margin-top: -20px;
+}
+legend
+{
+    background: #bfbf30;
+    color: #fff;
+    font: 17px/21px Calibri, Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+    margin: -26px 0 0 -11px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-color: #e5e5c3 #505014 #505014 #e5e5c3;
+}
+label
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+}
+label.opt
+{
+    font-weight: normal;
+}
+dl
+{
+    clear: both;
+}
+dt
+{
+    float: left;
+    text-align: right;
+    width: 90px;
+    line-height: 25px;
+    margin: 0 10px 10px 0;
+}
+dd
+{
+    float: left;
+    width: 475px;
+    line-height: 25px;
+    margin: 0 0 10px 0;
+}
+#footer
+{
+    font-size: 11px;
+}
+
+#container
+{
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*##########################################
+Script: Niceforms 2.0
+Theme: StandardBlue
+Author: Lucian Slatineanu
+URL: http://www.emblematiq.com/
+##########################################*/
+
+/*Text inputs*/
+.NFText
+{
+    border: none;
+    vertical-align: middle;
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    background: none;
+}
+.NFTextCenter
+{
+    height: 15px;
+    background: url(../images/input.png) repeat-x 0 0;
+    padding: 3px 0;
+    margin: 0;
+    float: left;
+    line-height: 15px;
+    width: 106px;
+}
+.NFTextLeft, .NFTextRight
+{
+    width: 7px;
+    height: 21px;
+    vertical-align: middle;
+    float: left;
+}
+.NFTextLeft
+{
+    background: url(../images/input-left.png) no-repeat 0 0;
+}
+.NFTextRight
+{
+    background: url(../images/input-right.png) no-repeat 0 0;
+}
+/*Radio*/
+.NFRadio
+{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid transparent;
+    background: url(../images/radio.png) no-repeat 0 0;
+    z-index: 2;
+}
+/*Checkbox*/
+.NFCheck
+{
+    cursor: pointer;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 1px solid transparent;
+    background: url(../images/checkbox.png) no-repeat 0 0;
+    z-index: 2;
+}
+/*Buttons*/
+.NFButton
+{
+    width: auto;
+    height: 26px;
+    color: #fff;
+    padding: 0 2px;
+    background: url(../images/button.png) repeat-x 0 0;
+    cursor: pointer;
+    border: none;
+    font: 10px/26px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+.NFButtonLeft, .NFButtonRight
+{
+    width: 6px;
+    height: 26px;
+    vertical-align: middle;
+}
+.NFButtonLeft
+{
+    background: url(../images/button-left.png) no-repeat 0 0;
+}
+.NFButtonRight
+{
+    background: url(../images/button-right.png) no-repeat 0 0;
+}
+/*Textareas*/
+.NFTextarea
+{
+    border: 1px solid #fff;
+    background: none;
+    font: 12px/12px Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.NFTextareaTop, .NFTextareaBottom
+{
+    height: 5px;
+    clear: both;
+    float: none;
+    padding-right: 10px;
+}
+.NFTextareaTop
+{
+}
+.NFTextareaBottom
+{
+    margin-bottom: 5px;
+}
+.NFTextareaTopLeft, .NFTextareaBottomLeft
+{
+    width: 5px;
+    height: 5px;
+}
+.NFTextareaTopLeft
+{
+    background: #f2f2e6 url(../images/textarea-tl.png) no-repeat 0 0;
+}
+.NFTextareaBottomLeft
+{
+    background: #f2f2e6 url(../images/textarea-bl.png) no-repeat 0 0;
+}
+.NFTextareaLeft, .NFTextareaRight, .NFTextareaLeftH, .NFTextareaRightH
+{
+    float: left;
+    padding-bottom: 5px;
+}
+.NFTextareaLeft, .NFTextareaLeftH
+{
+    width: 5px;
+}
+.NFTextareaLeft
+{
+    background: url(../images/textarea-l-off.png) repeat-y 0 0;
+}
+.NFTextareaLeftH
+{
+    background: url(../images/textarea-l-over.png) repeat-y 0 0;
+}
+.NFTextareaRight, .NFTextareaRightH
+{
+    padding-right: 5px;
+    padding-bottom: 0;
+}
+.NFTextareaRight
+{
+    background: url(../images/textarea-r-off.png) repeat-y 100% 0;
+}
+.NFTextareaRightH
+{
+    background: url(../images/textarea-r-over.png) repeat-y 100% 100%;
+}
+/*Files*/
+.NFFileButton
+{
+    padding-bottom: 0;
+    vertical-align: bottom;
+    cursor: pointer;
+    background: url(../images/file.png) no-repeat 0 0;
+    width: 60px;
+    height: 21px;
+}
+.NFFile
+{
+    position: relative;
+    margin-bottom: 5px;
+}
+.NFFile input.NFhidden
+{
+    position: relative;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+    text-align: left;
+}
+.NFFileNew
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+/*Selects*/
+.NFSelect
+{
+    height: 21px; /*position: absolute;*/
+    border: 1px solid transparent;
+    width: 80px;
+}
+.NFSelectLeft
+{
+    float: left;
+    width: 3px;
+    height: 21px;
+    background: url(../images/select-left.png) no-repeat 0 0;
+    vertical-align: middle;
+}
+.NFSelectRight
+{
+    height: 21px;
+    width: auto;
+    background: url(../images/select-right.png) no-repeat 100% 0;
+    cursor: pointer;
+    font: 12px/21px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-left: 3px;
+    margin-left: 3px;
+}
+.NFSelectTarget
+{
+    position: absolute;
+    background: none;
+    margin-left: -13px;
+    margin-top: 18px;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    padding-bottom: 13px;
+}
+.NFSelectOptions
+{
+    position: relative;
+    background: #707175;
+    margin-left: 16px;
+    margin-top: 0;
+    list-style: none;
+    padding: 4px 0;
+    color: #fff;
+    font: 11px/13px Arial, Helvetica, sans-serif;
+    z-index: 4;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    left: 0;
+    top: 0;
+}
+.NFSelectOptions li
+{
+    padding-bottom: 1px;
+}
+.NFSelectOptions a
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 3px;
+    background: none;
+}
+.NFSelectOptions a.NFOptionActive
+{
+    background: #464646;
+}
+.NFSelectOptions a:hover
+{
+    background: #333;
+}
+/*Multiple Selects*/
+.NFMultiSelect
+{
+    border: 0;
+    background: none;
+    margin: 0;
+}
+.NFMultiSelectTop, .NFMultiSelectBottom
+{
+    height: 5px;
+    clear: both;
+    float: none;
+    padding-right: 10px;
+}
+.NFMultiSelectTop
+{
+    background: url(../images/textarea-tr.png) no-repeat 100% 0;
+}
+.NFMultiSelectBottom
+{
+    background: url(../images/textarea-br.png) no-repeat 100% 0;
+    margin-bottom: 5px;
+}
+.NFMultiSelectTopLeft, .NFMultiSelectBottomLeft
+{
+    width: 5px;
+    height: 5px;
+}
+.NFMultiSelectTopLeft
+{
+    background: #f2f2e6 url(../images/textarea-tl.png) no-repeat 0 0;
+}
+.NFMultiSelectBottomLeft
+{
+    background: #f2f2e6 url(../images/textarea-bl.png) no-repeat 0 0;
+}
+.NFMultiSelectLeft, .NFMultiSelectRight, .NFMultiSelectLeftH, .NFMultiSelectRightH
+{
+    float: left;
+    padding-bottom: 5px;
+}
+.NFMultiSelectLeft, .NFMultiSelectLeftH
+{
+    width: 5px;
+}
+.NFMultiSelectLeft
+{
+    background: url(../images/textarea-l-off.png) repeat-y 0 0;
+}
+.NFMultiSelectLeftH
+{
+    background: url(../images/textarea-l-over.png) repeat-y 0 0;
+}
+.NFMultiSelectRight, .NFMultiSelectRightH
+{
+    padding-right: 5px;
+    padding-bottom: 0;
+}
+.NFMultiSelectRight
+{
+    background: url(../images/textarea-r-off.png) repeat-y 100% 0;
+}
+.NFMultiSelectRightH
+{
+    background: url(../images/textarea-r-over.png) repeat-y 100% 0;
+}
+
+/*Focused*/
+.NFfocused
+{
+    border: 1px dotted #666;
+}
+/*Hovered*/
+.NFh
+{
+    background-position: 0 100%;
+}
+.NFhr
+{
+    background-position: 100% 100%;
+}
+/*Hidden*/
+.NFhidden
+{
+    opacity: 0;
+    z-index: -1;
+    position: relative;
+}
+/*Safari*/
+select, input, textarea, button, tel, mobile
+{
+    outline: none;
+    resize: none;
+}
+
+
+
+/* Customize for Final Login */
+.PersonalInfo
+{
+    background: #ECECEC;
+     padding: 0 0 25px 18px;  
+    border: 4px solid #FFFFFF;
+    margin: 0 auto;
+    width: 455px;
+    margin-top: 25px;
+}
+.PersonalHeadreInfo
+{
+    background: #bfbf30;
+    color: #fff;
+    font: 17px/21px Calibri, Arial, Helvetica, sans-serif;
+    padding: 0 10px 0;
+    margin: -20px 0 0 0;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-color: #e5e5c3 #505014 #505014 #e5e5c3;
+    width: 160px;
+}
+.tblmain
+{
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 0px;
+}
+.FacebookInfo
+{
+    background: #f2f2e6;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-color: #fff #666661 #666661 #fff;
+    margin-bottom: 36px;
+    width: 600px;
+}
+.FacebookHeadreInfo
+{
+    background: #bfbf30;
+    color: #fff;
+    font: 17px/21px Calibri, Arial, Helvetica, sans-serif;
+    padding: 0 10px 0;
+    margin: -20px 0 0 0;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-color: #e5e5c3 #505014 #505014 #e5e5c3;
+    width: 160px;
+}
+.tblFacebook
+{
+    margin-top: 20px;
+}
+
+.NFButton
+{
+    width: auto;
+    height: 26px;
+    color: #fff;
+    padding: 0 2px;
+    background: url(../images/button1.png) repeat-x 0 0;
+    cursor: pointer;
+    border: none;
+    font: 10px/26px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+.NFButtonLeft, .NFButtonRight
+{
+    width: 6px;
+    height: 26px;
+    vertical-align: middle;
+}
+.NFButtonLeft
+{
+    background: url(../images/button-left.png) no-repeat 0 0;
+}
+.NFButtonRight
+{
+    background: url(../images/button-right.png) no-repeat 0 0;
+}
+
+.txtboxTxt
+{
+    border: none;
+    vertical-align: middle;
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    background-color: #f6bf4b;
+    height: 21px;
+    line-height: 21px;
+    border: 1px solid #fff;
+    width: 200px;
+}
+
+.txtMultiTxtbox
+{
+    border: none;
+    vertical-align: middle;
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    background: none;
+    width: 200px;
+    height: 120px;
+}
+.txtboxCenter
+{
+    height: 26px;
+    padding: 3px 0;
+    margin: 0;
+    float: left;
+    line-height: 26px;
+    width: 200px;
+}
+.txtboxLeft, .txtboxRight
+{
+    width: 7px;
+    height: 21px;
+    vertical-align: middle;
+    float: left;
+}
+.txtboxLeft
+{
+    background: url(../images/input-left.png) no-repeat 0 0;
+}
+.txtboxRight
+{
+    background: url(../images/input-right.png) no-repeat 0 0;
+}
+
+
+#CodeNumberTextBox
+{
+    margin-right: 204px;
+}
+/*tr
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #262626;
+}
+tr.opt
+{
+    font-weight: normal;
+}*/
+#tdCaptcha
+{
+    vertical-align: text-top; /*font-family: Verdana;     font-size: small;*/
+    font: 12px/17px Arial,Helvetica,sans-serif;
+    padding-left: 132px;
+}
+#tdsubmit
+{
+    vertical-align: text-top; /*font-family: Verdana;     font-size: small;*/
+    font: 12px/17px Arial,Helvetica,sans-serif;
+    padding-left: 130px;
+}
+.Click
+{
+    text-decoration: none;
+    color: #0C6E9F;
+}
+.Click:hover
+{
+    text-decoration: underline;
+}
+/* File upload button*/
+.FileUploadButton
+{
+    padding-bottom: 0;
+    vertical-align: bottom;
+    cursor: pointer;
+    background: url(../images/file.png) no-repeat 0 0;
+    width: 60px;
+    height: 21px;
+}
+.btnupload
+{
+    position: relative;
+    margin-bottom: 5px;
+}
+.btnupload input.Fileupload
+{
+    position: relative;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+    text-align: left;
+}
+.btnuploadNew
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+/**/
+
+/*Text inputs*/
+.Filename
+{
+    border: none;
+    vertical-align: middle;
+    font: 12px/15px Arial, Helvetica, sans-serif;
+    background: none;
+}
+.FilenameCenter
+{
+    height: 15px;
+    background: url(../images/input.png) repeat-x 0 0;
+    padding: 3px 0;
+    margin: 0;
+    float: left;
+    line-height: 15px;
+    width: 106px;
+}
+.FilenameLeft, .FilenameRight
+{
+    width: 7px;
+    height: 21px;
+    vertical-align: middle;
+    float: left;
+}
+.FilenameLeft
+{
+    background: url(../images/input-left.png) no-repeat 0 0;
+}
+.FilenameRight
+{
+    background: url(../images/input-right.png) no-repeat 0 0;
+}
+
+
+
+
+.heading_cus
+{
+    background-color: #bfbf30;
+    height: 27px;
+    line-height: 27px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    text-indent: 20px;
+    border-bottom: 0px;
+    border-left: 1px solid #8d8d28;
+    border-top: 1px solid #8d8d28;
+    border-right: 1px solid #8d8d28;
+    width: 205px;
+}
+.table_txt
+{
+    font-weight: bold;
+    color: #666666;
+    text-align: left;
+    border: 1px solid #8d8d28;
+    background-color: #f2f2e6;
+}
+.fl
+{
+    padding-left: 20px;
+    width: 200px;
+}
+.regcolour
+{
+    color: Red;
+    vertical-align: top;
+    padding-top: 0px;
+    margin: 0px; /*left: 395px;     position: absolute;     top: 94px;     color: #C23030;*/ /*padding-left: 12px;*/
+}
+.regspan
+{
+    vertical-align: top;
+    padding-top: 0px;
+    margin: 0px;
+}
+.redfont
+{
+    color: #f13035;
+}
+/* feb 08*/
+
+
+.passwarning
+{
+    color: #C23030;
+    text-align: left;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+
+#FileUpload
+{
+    position: relative;
+}
+
+#BrowserVisible
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: url(../Images/upload.gif) 100% 0px no-repeat;
+    height: 21px;
+    width: 215px;
+}
+
+#FileField
+{
+    padding: 0px;
+    margin: 0px;
+    width: 153px;
+    height: 21px;
+    line-height: 21px;
+    background: url(../Images/bg_upload.jpg) 100% 0px repeat-x;
+    border: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+#BrowserHidden
+{
+    position: relative;
+    width: 226px;
+    height: 22px;
+    text-align: right;
+    -moz-opacity: 0;
+    filter: alpha(opacity: 0);
+    opacity: 0;
+    z-index: 2;
+    border: 11px solid #000;
+}
+
+.emailalign
+{
+    color: red;
+    left: 213px;
+    position: relative;
+    top: -25px;
+}
+.emailalign1
+{
+    color: red;
+    position: relative;
+    left: -38px;
+    top: 0px;
+}
+.emailalign2
+{
+    color: red;
+    position: relative;
+    left: 132px;
+    top: 0px;
+}
+.tdRegisterHeader
+{
+    
+    text-decoration:underline;
+    text-align: center;
+    color: #000; 
+    font-size: 25px;    
+    padding-bottom: 15px;
+    }

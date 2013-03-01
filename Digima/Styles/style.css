@@ -1,0 +1,148 @@
+﻿html, body, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, ins, kbd, q, samp,small, 
+strong, sub, sup, var,b, i,dl, dt, dd,fieldset, form, label, legend,
+caption, tbody, tfoot, thead,
+{ margin:0px;padding:0px;border:0;outline:0;}
+*{ outline:none;}
+p { padding:0px;margin:0px;}
+.clr {clear:both;}
+a {text-decoration:none;}
+a:hover { text-decoration:none;}
+
+body{font-family:"Lucida Grande","Lucida Sans Unicode","Helvetica","Arial,Verdana","sans-serif";  
+font-size:13px; line-height:31px;color:#333333; text-align:left; padding:0px; margin:0px; 
+background:url('../images/body_bg.jpg');
+background-color:#c2c2c2; 
+background-repeat:no-repeat;}
+ 
+@font-face 
+{
+font-family: 'LucidaGrande' 'LucidaGrandeBold';
+src: url('../fonts/LucidaGrande.ttf')format('truetype');
+src: url('../fonts/LucidaGrandeBold.ttf')format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+#wrapper{margin:0 auto;  width:1040px; padding:0px; margin-top:0px; border:0px solid #000000;}
+
+.footer{ margin:0 auto;  width:1040px; padding:5px 0 0 0px; text-align:center;}
+.footer ul { padding:0px; margin:0px; }
+.footer ul  li {padding:0px 16px 0px 16px; display:inline; list-style-type:none;}
+.footer ul  li a { color:#333333;}
+.footer ul  li a:hover{ color:#000000; text-decoration:underline;}
+
+h1{ color:#5f5f5f; font-weight:bold; font-size:20px; line-height:30px; text-align:right; padding:10px 0 0 0px; margin:0px;}
+
+.leftdiv {float:left; width:720px; position:absolute; }
+.leftdivinsidePages {float:left; width:720px; position:absolute; }
+.logo { padding:24px 0 0px 1px}
+.menubg { margin-top:0px; width:710px; height:400px; position:relative;float:left;background:url('../images/home_banner_top.png');background-repeat:no-repeat;} 
+.menusubinsidepages { margin-top:-8px; width:710px; height:50px; position:relative;float:left;background:url('../images/submenubg.png');background-repeat:no-repeat;}
+.rightdiv {float:right; text-align:right; width:320px; border:0px solid #000000; padding:43px 0 0 0px }
+.rightdivinsidepages {float:right; text-align:right; width:320px; border:0px solid #000000; padding:43px 0 0 0px }
+.buttons { 
+      background: url(../images/login_button.png) no-repeat top;
+      height: 88px;	 
+      color:#ffffff;
+      width:88px;
+      border:0px;      
+      font-size:16px; 
+      font-weight:normal;  
+}
+.signUp
+{
+    background: url(../images/login_button.png) no-repeat top;
+      height: 88px;	 
+      color:#ffffff;
+      width:88px;
+      border:0px;      
+      font-size:16px; font-weight:normal;
+      
+}
+.buttons:hover { 
+      background: url(../images/login_button_over.png) no-repeat top;
+      height: 88px;	  
+      color:#ffffff;
+      width:88px;
+      border:0px;     
+      font-size:16px; font-weight:normal;cursor:pointer;outline:none;}
+	  
+.txt {position:relative; top:20px; padding-left:160px;}	
+.txt ul { padding:0px; margin:0px;}
+.txt ul li { display:inline; color:#303030; font-size:14px; padding:0 30px 0 10px; text-align:center; }	  
+	  
+	  
+	  
+.social { padding:20px 0px 0 140px;}
+.social ul { padding:0px; margin:0px;}
+.social ul  li {padding:0px 0 0 20px; display:inline; float:left; list-style-type:none; width:86px; height:75px; 
+text-indent:-999px;}
+.fb
+{
+    background-image: url('../images/fb.png');
+    background-color: transparent;   background-repeat: no-repeat;    border: none;
+    width:86px;   cursor: pointer;
+    height: 75px; display:block;
+}
+
+.fb:hover
+{
+    background-image: url('../images/fb_over.png');
+    background-color: transparent;   background-repeat: no-repeat;    border: none;
+    width:86px;   cursor: pointer;
+    height: 75px; display:block;
+}
+	
+
+.ms
+{
+    background-image: url('../images/microsite.png');
+    background-color: transparent;   background-repeat: no-repeat;    border: none;
+    width:86px;   cursor: pointer;
+    height: 75px; display:block;
+}
+
+.ms:hover
+{
+    background-image: url('../images/microsite_over.png');
+    background-color: transparent;   background-repeat: no-repeat;    border: none;
+    width:86px;   cursor: pointer;
+    height: 75px; display:block;
+}
+	
+.ws
+{
+    background-image: url('../images/website.png');
+    background-color: transparent;   background-repeat: no-repeat;    border: none;
+    width:86px;   cursor: pointer;
+    height: 75px; display:block;
+}
+
+.ws:hover
+{
+    background-image: url('../images/website_over.png');
+    background-color: transparent;   background-repeat: no-repeat;    border: none;
+    width:86px;   cursor: pointer;
+    height: 75px; display:block;
+}	
+
+	
+.yt
+{
+    background-image: url('../images/youtube.png');
+    background-color: transparent;   background-repeat: no-repeat;    border: none;
+    width:86px;   cursor: pointer;
+    height: 75px; display:block;
+}
+
+.yt:hover
+{
+    background-image: url('../images/youtube_over.png');
+    background-color: transparent;   background-repeat: no-repeat;    border: none;
+    width:86px;   cursor: pointer;
+    height: 75px; display:block;
+}	
+		
+	
+.banner {width:594px; height:300px;  margin:40px 0 0 70px;}
+
+

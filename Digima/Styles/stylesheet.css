@@ -1,0 +1,341 @@
+﻿
+#wrapper
+{
+    margin: 0 auto;
+    width: 900px;
+    color: #fff;
+}
+#page
+{
+    /*background: url(../images/menu_bg.jpg);*/
+    background-position: top;
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #4877b6;
+}
+
+.sprite
+{
+    background: url(../images/dashboard.jpg);
+    display: inline;
+    height: 94px;
+}
+.txt
+{
+    display: none;
+}
+
+.dash
+{
+    background: url(../images/dashboard.jpg);
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 94px;
+    cursor: pointer;
+}
+
+.dash1
+{
+    background-position: 0px 0px;
+}
+.dash1:hover
+{
+    background-position: -0px -94px;
+}
+
+.feature
+{
+    background-position: -130px 0px;
+    width: 107px;
+}
+.feature:hover
+{
+    background-position: -130px -94px;
+}
+
+.video
+{
+    background-position: -237px 0px;
+    width: 123px;
+}
+.video:hover
+{
+    background-position: -237px -94px;
+}
+
+.tips
+{
+    background-position: -360px 0px;
+    width: 76px;
+}
+.tips:hover
+{
+    background-position: -360px -94px;
+}
+
+.brochures
+{
+    background-position: -435px 0px;
+    width: 93px;
+}
+.brochures:hover
+{
+    background-position: -435px -94px;
+}
+
+.faq
+{
+    background-position: -527px 0px;
+    width: 74px;
+}
+.faq:hover
+{
+    background-position: -527px -94px;
+}
+
+.contact
+{
+    background-position: -600px 0px;
+    width: 123px;
+}
+.contact:hover
+{
+    background-position: -600px -94px;
+}
+
+.company
+{
+    background-position: -722px 0px;
+    width: 91px;
+}
+.company:hover
+{
+    background-position: -722px -94px;
+}
+
+.logo
+{
+    float: left;
+    width: 250px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.list
+{
+    float: right;
+    width: 250px;
+    text-align: right;
+    color: #000;
+    font-size: 11px;
+    position: relative;
+    top: 40px;
+    right: -210px;
+    margin-top:80px;
+    height:35px;
+    color: #4c5294;
+}
+
+.list ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top:80px;
+}
+
+.list ul li
+{
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 0px;
+    margin: 0px;
+    display: inline;
+}
+
+.list ul li a
+{
+    list-style-type: none;
+    margin: 0px;
+    color: #000;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.list ul li a:hover
+{
+    list-style-type: none;
+    color: #2d73c8;
+    text-decoration: underline;
+}
+
+
+.contentholder
+{
+    padding: 20px;
+    border-top: 1px solid #4877b6;
+}
+.clr
+{
+    clear: both;
+}
+
+.panelleft
+{
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: Gray;
+    margin-right: 30px;
+    box-shadow: 2px 2px #CECECE;
+    -webkit-box-shadow: 2px 2px #CECECE;
+    -moz-box-shadow: 2px 2px #CECECE;
+    filter: progid:DXImageTransform.Microsoft.dropShadow(color=#000000, offX=5, offY=5, positive=true);
+    margin-left:-20px;
+    margin-right:20px;
+}
+.panelcenter
+{
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: White;
+    margin-left: 20px;
+    font-family: Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+    text-align: center;
+    color: White;
+    box-shadow: 2px 2px #CECECE;
+    -webkit-box-shadow: 2px 2px #CECECE;
+    -moz-box-shadow: 2px 2px #CECECE;
+    filter: progid:DXImageTransform.Microsoft.dropShadow(color=#000000, offX=5, offY=5, positive=true);
+    margin-right:20px;
+}
+.panelright
+{
+    float: right;
+    width: 250px;
+    height: 250px;
+    background-color: White;
+    font-family: Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+    text-align: center;
+    color: White;
+    box-shadow: 2px 2px #CECECE;
+    -webkit-box-shadow: 2px 2px #CECECE;
+    -moz-box-shadow: 2px 2px #CECECE;
+    filter: progid:DXImageTransform.Microsoft.dropShadow(color=#000000, offX=5, offY=5, positive=true);
+    margin-left:-20px;
+    margin-right:20px;
+}
+
+.buttonlogin
+{
+    background-color: #6c8cb7;
+    border: 1px solid #4c8cdc;
+    line-height: 18px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttonlogin:hover
+{
+    background-color: #2d73c8;
+    border: 1px solid #6c8cb7;
+    line-height: 18px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.templatepreview
+{
+    float: left;
+    width: 150px;
+    padding-right: 20px;
+}
+.templatepreview ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+.templatepreview ul li
+{
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    width: 150px;
+    height: 100px;
+    border: 1px solid #4877b6;
+    margin-bottom: 10px;
+}
+.templatecontent
+{
+    float: left;
+    height: 400px;
+    border: 1px solid #4877b6;
+    width: 78%;
+}
+.buttonspreview
+{
+    position: relative;
+    top: 250px;
+    left: 220px;
+}
+.buttonspreview ul
+{
+    padding: 0px margin:0px;
+    list-style-type: none;
+}
+.buttonspreview ul li
+{
+    padding: 0px margin:0px;
+    list-style-type: none;
+    display: inline;
+}
+.loginpanel
+{
+    float: left;
+    width: 400px;
+    margin-right: 30px;
+}
+.signup_panel
+{
+    float: left;
+    width: 400px;
+}
+.txtbox
+{
+    border: 1px solid #4877b6;
+    height: 18px;
+    line-height: 18px;
+    width: 170px;
+    text-align: left;
+}
+.sign
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    background-color: #9bbbe4;
+}
+.smtext
+{
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+}
+.smtext a
+{
+    color: #000;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.smtext a:hover
+{
+    color: #000;
+    text-decoration: underline;
+    color: #2d73c8;
+}

@@ -1,0 +1,402 @@
+﻿html, body, div, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, ins, kbd, q, samp,small, 
+strong, sub, sup, var,b, i,dl, dt, dd,fieldset, form, label, legend,
+caption, tbody, tfoot, thead,
+{ margin:0px;padding:0px;border:0;outline:0;}
+*{ outline:none;}
+.clr {clear:both;}
+a {text-decoration:none; color:#fff;}
+a:hover { text-decoration:none;}
+p { padding:0px;margin:0px;}
+ul { padding-top:0px;margin-top:0px;}
+
+body{font-family:"Lucida Grande","Lucida Sans Unicode","Helvetica","Arial,Verdana","sans-serif";  
+font-size:13px; line-height:20px;color:#333333; text-align:left; padding:0px; margin:0px; background-color:#181526;
+background-color:#11111d;  background-position:top;}
+ 
+     .TopNav {float: right;    margin-top: 19px;}
+.TopNav ul{margin:0; padding:0px 0 0 0;}
+.TopNav ul li{list-style-type:none; float:left; display:inline; text-align:center; padding:0px 0 0 10px; font-size:12px; }
+.TopNav ul li a{color:#fff; text-decoration:none;}
+.TopNav ul li a:hover{color:#fff; text-decoration:underline;}
+.dynamic
+{
+    width: 33px;
+    height: 33px;
+}
+@font-face 
+{
+font-family: 'LucidaGrande' 'LucidaGrandeBold';
+src: url('../fonts/LucidaGrande.ttf')format('truetype');
+src: url('../fonts/LucidaGrandeBold.ttf')format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.wrapper{margin:auto; width:950px; border:0px solid #fff; margin-top:20px;}
+.logopanel {float:left;width:215px; }
+.menubg { float:right; margin-top:10px; width:680px; text-align:right;}
+.logo {width:212px; height:44px; border:0px;}
+
+.banner { 
+float:left;
+width:950px;
+height:180px;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+}
+
+.banner h1 {color: #0A3F63;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 5px 0 0 23px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #3B7FAB;}
+
+.banner h2 { font-family:Helvetica, sans-serif;padding:0px 0 10px 20px;font-size:20px; color:#292929; font-weight:bold;text-align:left;}
+
+
+.video { float:left; width:280px; height:150px;-webkit-border-radius: 12px; margin:0px 10px 0 5px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+background-color:#63c1ff; padding:15px;}
+
+.menpanel { float:left; width:308px; }
+.menheading { width:308px; height:50px; background:url('../images/men.png');}
+.men {width:296px; height:280px; border:0px;}
+
+
+.womenpanel { float:left; width:308px; margin:0px 12px 0px 12px;}
+.womenheading { width:308px; height:50px; background:url('../images/women.png');}
+.women {width:296px; height:280px; border:0px;}
+
+
+.kidspanel { float:left; width:308px; border:0px solid #fff; }
+.kidsheading { width:308px; height:50px; background:url('../images/kids.png');}
+.kids {width:296px; height:280px; border:0px;}
+
+ h3 { padding:0px; margin:0px; font-size:13px; color:#63c1ff;}
+ h3 a{color:#63c1ff;}
+ 
+.footerheading { padding:0px; margin:0px; float:left; padding:0px 50px 10px 0px;}
+.footerheading ul{ padding:0px; margin:0px; }
+.footerheading ul li {color:#fff;list-style:none;padding:0px; margin:0px; font-size:12px;}
+.footerheading ul li a:hover{ list-style:none; color:#fff; text-decoration:underline;}
+
+.clr {clear:both;}
+.sale{height:180px; width:950px;border-radius:8px;}
+
+/* /********************************* MENU Startrs ********/ 
+
+.ddsubmenustyle, .ddsubmenustyle div{ /*topmost and sub DIVs, respectively*/
+margin: 0;
+padding: 0;
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:normal;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+visibility: hidden;
+z-index: 1000;
+}
+
+.ddsubmenustyle ul{
+margin-top:3px;
+padding: 0;
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:normal;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+
+}
+
+.ddsubmenustyle li a{
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:normal;
+display: block;
+width: 220px; /*width of menu (not including side paddings)*/
+color:#232323;
+background-color:#e7e7e7;
+text-decoration: none;
+padding: 8px 1px 8px 10px;
+border-bottom: 1px solid white;
+}
+
+* html .ddsubmenustyle li{ /*IE6 CSS hack*/
+display: inline-block;
+width:300px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle li a:hover{
+background-color: #ffffff;
+color: #232323;
+}
+/* ######### Sub sub tab Starts CSS  ######### */
+.ddsubsubmenustyle, .ddsubsubmenustyle div{ /*topmost and sub sub DIVs, respectively*/
+margin: 0;
+padding:0px 0 0 0px;
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:normal;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+visibility: hidden;
+z-index: 1000;
+border-left:1px solid #ffffff;
+border-bottom:1px solid #cccccc;
+}
+
+.ddsubsubmenustyle ul{
+margin-top:30px;
+padding: 0;
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:normal;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+
+}
+
+.ddsubsubmenustyle li a{
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:normal;
+display: block;
+width: 250px; /*width of menu (not including side paddings)*/
+color:#232323;
+background-color:#e7e7e7;
+text-decoration: none;
+padding: 8px 1px 8px 10px;
+border-bottom: 1px solid white;
+}
+
+* html .ddsubsubmenustyle li{ /*IE6 CSS hack*/
+display: inline-block;
+width:300px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubsubmenustyle li a:hover{
+background-color: #ffffff;
+color: #232323;
+}
+
+
+/* ######### Neutral CSS  ######### */
+
+.downarrowpointer{ /*CSS for "down" arrow image added to top menu items*/
+padding-left: 4px;
+border: 0;
+}
+
+.ddiframeshim{
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:normal;
+position: absolute;
+z-index: 500;
+background: transparent;
+border-width: 0;
+width: 0;
+height: 0;
+display: block;
+}
+
+/* ######### Matt Black Strip Main Menu Bar CSS ######### */
+
+.mattblackmenu 
+{
+position:relative; top:2px; 
+}
+
+
+.mattblackmenu ul{
+margin:0 7px 0 0px;
+padding: 0;
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:normal;
+list-style-type: none;
+overflow: hidden;
+width: 100%;  
+}
+
+.mattblackmenu li{
+display: inline;
+margin: 0 0px 0 0;
+padding: 1px 2px;
+
+}
+
+.mattblackmenu li a{
+font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+font-weight:bold;
+font-size:12px;
+text-decoration: none;
+margin: 0 2px 0 0;
+padding: 5px 5px;
+/*right divider between tabs*/
+
+}
+
+.mattblackmenu li a:visited 
+{
+} 
+.mattblackmenu li a:hover
+{ 
+color:#191727; background-color:#63c1ff;
+}
+.select { color:#191727; background-color:#63c1ff;}
+.mattblackmenu a.selected
+{
+background-color:#63c1ff; color:#191727;/*background of tab with "selected" class assigned to its LI */
+}
+
+/********************************* MENU ENDS ********/
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+
+/*------------------------------------------------ */
+/* Tablet & Small Mobile  */
+/*------------------------------------------------ */
+@media screen and (max-width: 960px)
+{
+    body{ overflow-x:hidden	} 
+    .menpanel{  float: left; width: 260px;}
+    .womenpanel{ width: 260px;}
+    .kidspanel{ width: 260px;}
+    .men { width: 260px;}
+    .women { width: 260px;}
+    
+    .kids { width: 260px;} 
+    
+    
+    
+    .TopNav {float: right;    margin-top: 19px;}
+.TopNav ul{margin:0; padding:0px 0 0 0;}
+.TopNav ul li{list-style-type:none; float:left; display:inline; text-align:center; padding:0px 0 0 10px; font-size:12px; }
+.TopNav ul li a{color:#fff; text-decoration:none;}
+.TopNav ul li a:hover{color:#fff; text-decoration:underline;}
+    
+  .sale{height:180px; width:805px;border-radius:8px;}  
+.divLike {
+    color: #FFFFFF;
+    float: right;
+    font-family: Calibri;
+    font-size: 15px;
+    font-weight: normal;
+    height: 14px;
+    margin-top: -22px;
+    padding-right: 7px;
+}
+
+.SpanLike {
+    color: #FFFFFF;
+    float: right;
+    height: 14px;
+    margin-top: -22px;
+    padding-right: 42px;
+}    
+    
+    .banner{ float: left;    height: 180px;    width: 500px;}
+	 body{ font-size:100%} 
+    .wrapper {width:100%; padding-left:2px;}
+    
+	.logopanel { float:left; width:0px;}	
+	.logo { border:0px solid #fff;}
+    .menubg { float:right; width:400px;}
+	.mattblackmenu {float:right;}
+	
+	.mattblackmenu ul {
+    border: 1px solid #FFFFFF;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: normal;
+    height: 100px;
+    list-style-type: none;
+    margin: 0 7px 0 0;
+    overflow: hidden;
+    padding: 0;
+    width: 450px;
+}
+	.fbsc { display:inline;}
+	.mattblackmenu ul li { display:inline;}
+	.mattblackmenu ul li a{ font-size:11px; padding:3px 5px 3px 5px;}	
+	.mattblackmenu ul li a:hover { background:none;}	
+	.banner { float:left; height: 200px; width: 458px;}
+	.video { background-color: #63C1FF; float: left; height: 169px; margin: 0 10px 0 5px;padding: 15px;  width: 302px; border-radius: 0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 720px) and (max-width: 800px) 
+{
+
+	 body{ font-size:100%} 
+	.menpanel{  float: left; width: 260px;}
+    .wrapper {width:100%; padding-left:2px;}
+	.logopanel { float:left; width:0px;}	
+	.logo { border:0px solid #fff;}
+	.menubg { float:right; width:600px;}
+	.mattblackmenu {float:right;}
+	.mattblackmenu ul li {}
+	.mattblackmenu ul li a{ font-size:11px; padding:3px 5px 3px 5px;}	
+	.banner { float:left; height: 200px; width: 458px;}
+	.video {background-color: #63C1FF; width:263px;height: 168px; border-radius: 12px 12px 12px 12px;  
+			 float:left; margin:0 10px 0 5px;  padding: 15px;}
+			 .sale{height:180px; width:590px;border-radius:8px;}
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) 
+{
+ body{ font-size:100%} 
+    .wrapper {width:100%; padding-left:2px;}
+	.logopanel { float:left;  }	
+	.logo {}
+	.menubg { float:left; }
+	.mattblackmenu {float:left;} 
+	.mattblackmenu  ul {width: 306px;}	
+	.mattblackmenu ul li {display:block;}
+	.mattblackmenu ul li a{ font-size:11px; padding:3px 5px 3px 5px;float:left; border:1px solid #5a5793; }	
+	.banner { float:left; height: 239px; width: 296px; margin-bottom:20px;}
+	.video {  background-color: #63C1FF; width:263px;height: 168px; border-radius: 12px 12px 12px 12px;  
+			 float: left;  margin: 0 10px 0 5px;    padding: 15px;}	    
+	.womenpanel {  float: left;    margin:0px;    width: 308px;}			 
+	.footerheading 	{ margin: 0;padding: 0 100px 10px 0;}		 
+	.sale{height:180px; width:950px;border-radius:8px;}		 
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) 
+{
+    body{ font-size:100%} 
+    .wrapper {width:100%; padding-left:2px;}
+	.logopanel { float:left; width:0px;}	
+	.logo { border:0px solid #fff;}
+	.menubg { float:right; width:600px;}
+	.mattblackmenu {float:right;}
+	.mattblackmenu ul li {}
+	.mattblackmenu ul li a{ font-size:11px; padding:3px 5px 3px 5px;}	
+	.banner {    float: left;    height: 200px;    width: 950px; padding-right:10px;}
+	.video {  background-color: #63C1FF; width:263px;height: 168px; border-radius: 12px 12px 12px 12px;  
+			 float: left;  margin: 0 10px 0 5px;    padding: 15px;}		 
+		.sale{height:180px; width:950px;border-radius:8px;}	 
+}
+
+

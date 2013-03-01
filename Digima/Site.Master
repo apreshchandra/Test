@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DigiMa.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Page</title>
+    <link rel="stylesheet" type="text/css" href="Styles/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/master_style.css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+</head>
+<body class="masterbody">
+    <form runat="server">
+   <%-- <div id="masterwrapper">--%>
+        
+        
+        
+        <div id="masterbanner">
+            <%--  <div class="sonetlogo">
+                <a href="#" title="SoNetReach">
+                    <img src="../Images/sonetlogo.png" alt="SoNetReach" border="0px" /></a></div>
+            <div id="smnetservlogo">
+                <a href="http://www.smnetserv.com" target="_blank" title="SM Netserv">
+                    <img src="Images/smnetserv.png" border="0px" alt="SM Netserv" style="padding-right: 28px;" /></a>
+                <div id="toplnk">
+                    <ul>
+                        <li>
+                            <input type="button" value="&nbsp;&nbsp;Signup&nbsp;&nbsp;" class="loginlnk" /></span></li>
+                        <li>
+                            <input type="button" value="&nbsp;Login&nbsp;&nbsp;" class="loginlnk" /></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clr">
+                </div>
+            </div>--%>
+          
+          
+          
+          
+          
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <%--<div class="masterpage_container"> 
+            
+        </div>--%>
+
+
+
+
+
+
+
+
+        <div class="master_footer">
+            <asp:ContentPlaceHolder ID="FooterContent" runat="server" />
+            <img src="images/spacer.png" border="0px" /></div>
+   <%-- </div>--%>
+    </form>
+</body>
+<%--</asp:ContentPlaceHolder>--%>
+</html>

@@ -1,0 +1,526 @@
+﻿html, body, div, h1, h2, h3, h4, h5, h6, p
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body
+{
+    font-family: Microsoft YaHei;
+    font-size: 13px;
+    background-position: top;
+}
+
+*
+{
+    outline: none;
+}
+img
+{
+    padding: 0px;
+    margin: 0px;
+}
+.masterbody
+{
+    background-position: top;
+    height: 800px;
+}
+.clr
+{
+    clear: both;
+}
+
+.masterwrapper
+{
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 10px;
+}
+.mastercontent
+{
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 10px;
+}
+
+.backwrapper
+{
+    margin: 0px auto 0px auto;
+    width: 90px;
+    text-align: center;
+}
+
+.backwrapperError
+{
+    margin: 0px auto 0px auto;
+    width: 90px;
+    text-align: center;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.backlink
+{
+    background-image: url('../Images/back_button.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: #D2F522;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    height: 26px;
+    line-height: 24px;
+    width: 83px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.backlinkError
+{
+    background-image: url('../Images/back_button_Error.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: #D2F522;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    height: 26px;
+    line-height: 24px;
+    width: 141px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.backlink:hover
+{
+    border: none;
+    color: #F7C357;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    height: 26px;
+    line-height: 24px;
+    width: 83px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#masterbanner
+{
+    background-image: url(../Images/master_banner.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.sonetlogo
+{
+    float: left;
+    width: 300px;
+}
+
+.topright
+{
+    float: right;
+    width: 370px;
+    top: 27px;
+}
+
+.toplink
+{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: White;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    height: 28px;
+    line-height: 28px;
+    width: 83px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Lucida Grande" , "Lucida Sans Unicode" , "Helvetica";
+}
+
+
+
+.copy
+{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+}
+.netserv
+{
+    margin: 0 auto;
+    float: left;
+    width: 1000px;
+    text-align: left;
+    padding-top: 5px;
+}
+.bannerbottombg
+{
+    background-image: url('../Images/bottom_bannerbg.png');
+    background-repeat: repeat-x;
+}
+.banner_repeatbg
+{
+    background-image: url('../Images/banner_repeatbg.png');
+    background-repeat: repeat-y;
+}
+
+.tl_repeatbg
+{
+    background-image: url('../Images/tl.png');
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 132px;
+    background-position: bottom;
+}
+.tr_repeatbg
+{
+    background-image: url('../Images/tr.png');
+    background-repeat: no-repeat;
+    height: 138px;
+    background-position: top;
+    width: 105px;
+}
+
+.banner_top
+{
+    background-image: url('../Images/banner_top.png');
+    background-color: #ffffff;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.leftbanner_repeatbg
+{
+    background-image: url('../Images/left_banner.png');
+}
+.rightbanner_repeatbg
+{
+    background-image: url('../Images/right_banner.png');
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+.bl
+{
+    background-image: url('../Images/bl.png');
+    background-repeat: no-repeat;
+    height: 18px;
+    background-position: top;
+    width: 22px;
+}
+.br
+{
+    background-image: url('../Images/br.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 22px;
+}
+.contentpanel
+{
+    /*background-image: url(../Images/sonet_watermark03.png);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    text-align: left;
+    color: #000000;
+    font-size: 1.2em small;
+    height: 494px;
+    width: 865px;
+}
+
+
+
+.navigation
+{
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: -6px;
+}
+
+.navbrd
+{
+    float: left;
+    width: 65px;
+    height: 65px;
+    padding-right: 10px;
+}
+.navbrd1
+{
+    float: left;
+    height: 65px;
+}
+
+.navtxtposition
+{
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navhome
+{
+    float: left;
+    width: 65px;
+    height: 65px;
+    background-image: url('../Images/navhome.png');
+    text-align: center;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+.navhome:hover
+{
+    background-image: url('../Images/navhome_hover.png');
+    background-repeat: no-repeat;
+}
+
+#nav
+{
+    background-image: url('../Images/navhome_hover.png');
+    background-repeat: no-repeat;
+}
+/*#featurelist
+{
+    background-image: url('../Images/featurelist.png');
+    background-repeat: no-repeat;
+}*/
+.url
+{
+    color: #939393;
+}
+.url:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.featurelist
+{
+    float: left;
+    width: 65px;
+    height: 65px;
+    background-image: url('../Images/featurelist.png');
+    text-align: center;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+.featurelist:hover
+{
+    background-image: url('../Images/featurelist_hover.png');
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+
+.faq
+{
+    float: left;
+    width: 65px;
+    height: 65px;
+    background-image: url('../Images/faq.png');
+    text-align: center;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+.faq:hover
+{
+    background-image: url('../Images/faq_hover.png');
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+
+.contact
+{
+    float: left;
+    width: 65px;
+    height: 65px;
+    background-image: url('../Images/contact.png');
+    text-align: center;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+.contact:hover
+{
+    background-image: url('../Images/contact_hover.png');
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+
+.about
+{
+    float: left;
+    width: 65px;
+    height: 65px;
+    background-image: url('../Images/about.png');
+    text-align: center;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+.about:hover
+{
+    background-image: url('../Images/about_hover.png');
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+
+.footercopy
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+    text-align: left;
+    color: #939393;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.txtbox
+{
+    height: 18px;
+    line-height: 18px;
+    width: 200px;
+    border: 1px solid #cccccc;
+}
+
+.dropbox
+{
+    height: 23px;
+    line-height: 23px;
+    width: 200px;
+    border: 1px solid #fff;
+}
+
+
+.txtboxerror
+{
+    background-color: red;
+}
+
+.txtarea
+{
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+}
+
+.captcha
+{
+    text-align: left;
+    position: relative;
+    left: 147px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    /* the CSS styling below will only be picked up by Safari and Chrome */
+
+    .captcha
+    {
+        text-align: left;
+        position: relative;
+        left: -2px;
+    }
+
+}
+
+/* Opera */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0)
+{
+    .captcha
+    {
+        left: 0px;
+        text-align: left;
+        position: relative;
+    }
+}
+
+.submitbutton
+{
+    text-align: center;
+    padding-bottom: 17px;
+    padding-left: 175px;
+}
+
+.iframe
+{
+    border: 4px solid white;
+    -moz-border-radius: 15px;
+    border-radius: 15px; /*overflow: hidden;*/
+    overflow-x: hidden;
+}
+.divForgotpasswordbtn
+{
+    /*margin-left: -78px;     margin-top: 40px;     padding-bottom: 4px;*/ /*position: absolute;*/ /*width: 370px;*/
+    padding-left: 130px;
+}
+.HeaderRegister
+{
+    text-align: center;
+    color: #8F1313;
+    font-size: 25px;
+    padding-bottom: 17px;
+    padding-right: 155px;
+}
+
+.uploadbtn
+{
+    background-image: url('../Images/upload.png');
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 96px;
+    height: 28px;
+    background-color: Transparent;
+}
+
+.lblLoginuser
+{
+    font-size: 16px;
+    margin-left: 240px;
+    margin-right: 225px;
+    margin-top: 8px;
+    height: 480px;
+    width: 600px;
+}
+.divslider
+{
+    background: url("/images/home/nav-highlight.png") no-repeat scroll center top transparent;
+    height: 13px;
+    position: absolute;
+    top: -1px;
+    width: 151px;
+    z-index: 1;
+}
+.imgarrow
+{
+    margin-left: 26px;
+    margin-top: -6px;
+}
