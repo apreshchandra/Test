@@ -42,7 +42,7 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.0.5.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Digima\bin\Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Google\Google Data API SDK\Samples\Newtonsoft.Json.DLL</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -56,7 +56,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Twitterizer2">
-      <HintPath>C:\test\Sonet\SonetConnect\bin\Twitterizer2.dll</HintPath>
+      <HintPath>C:\Users\apresh.chandra.NETSERV\Downloads\Twitterizer2-2.4\Twitterizer2\Full\Twitterizer2.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
