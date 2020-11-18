@@ -1,0 +1,1 @@
+Please read the following with your left eye closed and your right ear open.
