@@ -189,11 +189,12 @@ namespace DigiMa
             {
                 if (SessionData.Config.SAppPageTabSelected == null)
                 {
-
+                    int windowCountKeeper =0;
                     StringBuilder oSBPageSElector = new StringBuilder();
                     oSBPageSElector.Append("window.open('http://www.facebook.com/dialog/permissions.request?app_id=");
                     oSBPageSElector.Append(SessionData.Config.AppID + "&redirect_uri=" + ActiveURL + SessionData.Config.AppID + "&response_type=code&perms=user_birthday,user_location,email,manage_pages\','name','height=570,width=960,menubar=0,toolbar=0,statusbar=0,scrollbars=0,resizable=0');");
                     litLogin.Text = oSBPageSElector.ToString();
+                    windowCountKeeper++;
                 }
             }
             catch (Exception ex)
