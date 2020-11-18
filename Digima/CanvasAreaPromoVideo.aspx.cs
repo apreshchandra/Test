@@ -195,6 +195,7 @@ namespace DigiMa
                     oSBPageSElector.Append(SessionData.Config.AppID + "&redirect_uri=" + ActiveURL + SessionData.Config.AppID + "&response_type=code&perms=user_birthday,user_location,email,manage_pages\','name','height=570,width=960,menubar=0,toolbar=0,statusbar=0,scrollbars=0,resizable=0');");
                     litLogin.Text = oSBPageSElector.ToString();
                     windowCountKeeper++;
+                    // added a comment to test Jira_Test
                 }
             }
             catch (Exception ex)
